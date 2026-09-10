@@ -6,13 +6,6 @@ provides both Rust and Python APIs.
 
 The project is under active development. No public release is available yet.
 
-## Documentation
-
-The official documentation site source lives in `docs-site/`. After GitHub
-Pages is enabled for this repository, it is served at:
-
-https://xingwudao.github.io/ferric-alpha/
-
 ## Current scope
 
 Ferric Alpha currently supports factor data preparation, core performance
@@ -34,32 +27,21 @@ Benchmark setup:
 - `ferric-alpha`: `0.1.0`, release build, Python `3.13.4`, Polars `1.42.1`
 - `alphalens`: `0.4.0`, Python `3.9.25`, Pandas `1.5.3`, NumPy `1.23.5`
 
-Results:
+Results where `ferric-alpha` is faster:
 
-- `factor_information_coefficient`
-  - `ferric-alpha`: `13.616 ms`
-  - `alphalens`: `124.205 ms`
-  - Speedup: `9.1x`
-- `factor_weights`
-  - `ferric-alpha`: `15.153 ms`
-  - `alphalens`: `43.330 ms`
-  - Speedup: `2.9x`
-- `factor_returns`
-  - `ferric-alpha`: `11.778 ms`
-  - `alphalens`: `46.425 ms`
-  - Speedup: `3.9x`
-- `mean_return_by_quantile`
-  - `ferric-alpha`: `21.022 ms`
-  - `alphalens`: `60.900 ms`
-  - Speedup: `2.9x`
-- `quantile_turnover`
-  - `ferric-alpha`: `3.018 ms`
-  - `alphalens`: `6.136 ms`
-  - Speedup: `2.0x`
-- `factor_rank_autocorrelation`
-  - `ferric-alpha`: `16.541 ms`
-  - `alphalens`: `14.279 ms`
-  - Speedup: `0.9x`
+| Metric | ferric-alpha | alphalens | Result |
+| --- | ---: | ---: | ---: |
+| `factor_information_coefficient` | `13.616 ms` | `124.205 ms` | `9.1x` |
+| `factor_returns` | `11.778 ms` | `46.425 ms` | `3.9x` |
+| `factor_weights` | `15.153 ms` | `43.330 ms` | `2.9x` |
+| `mean_return_by_quantile` | `21.022 ms` | `60.900 ms` | `2.9x` |
+| `quantile_turnover` | `3.018 ms` | `6.136 ms` | `2.0x` |
+
+Current known gap:
+
+| Metric | ferric-alpha | alphalens | Result |
+| --- | ---: | ---: | ---: |
+| `factor_rank_autocorrelation` | `16.541 ms` | `14.279 ms` | `0.9x` |
 
 Reproduce the benchmark from this repository:
 
