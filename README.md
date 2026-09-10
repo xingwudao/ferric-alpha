@@ -26,6 +26,19 @@ Required columns:
 The optional `group` column must be Polars `String`. The `(date, asset)` key
 must be non-null and unique.
 
+## Quickstart
+
+Run the complete factor-analysis example after building from source:
+
+```bash
+python examples/factor_quickstart.py --output-dir quickstart-output
+```
+
+It prepares a known-signal dataset, computes IC, quantile returns, factor
+returns, alpha/beta, turnover, and rank autocorrelation, then writes a native
+HTML tear sheet. See the [factor analysis quickstart](docs/quickstart.md) for
+the input schema and an API walkthrough.
+
 ## Development
 
 Prerequisites are Python 3.10 or newer, Rust 1.91 or newer, and `make`.

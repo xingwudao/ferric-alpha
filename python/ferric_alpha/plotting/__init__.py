@@ -68,6 +68,27 @@ def render(
     scale: float = 1.0,
     theme: Theme = "light",
 ) -> RenderedTearSheet:
+    """Render a tear-sheet data model with a native or Matplotlib backend.
+
+    Parameters
+    ----------
+    report
+        Report model produced by a ``ferric_alpha.tears`` data builder.
+    backend
+        Output backend: ``html``, ``svg``, ``png``, or ``matplotlib``.
+    width
+        Logical output width in pixels.
+    scale
+        Positive output scale factor, primarily useful for raster images.
+    theme
+        ``light`` or ``dark`` color theme.
+
+    Returns
+    -------
+    RenderedTearSheet or matplotlib.figure.Figure
+        Immutable native output for HTML, SVG, or PNG; a Matplotlib figure
+        when that optional backend is selected.
+    """
     width = _validate_width(width)
     scale = _validate_scale(scale)
     theme = _validate_theme(theme)

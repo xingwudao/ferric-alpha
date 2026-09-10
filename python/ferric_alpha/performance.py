@@ -36,6 +36,22 @@ def factor_information_coefficient(
     group_adjust: bool = False,
     by_group: bool = False,
 ) -> pl.DataFrame:
+    """Compute cross-sectional Spearman IC for each date and return period.
+
+    Parameters
+    ----------
+    factor_data
+        Clean factor data containing ``factor`` and forward-return columns.
+    group_adjust
+        Demean returns within each date and group before computing IC.
+    by_group
+        Compute separate IC observations for each group.
+
+    Returns
+    -------
+    polars.DataFrame
+        ``date``, optional ``group``, ``period``, and ``ic`` columns.
+    """
     return _ferric_alpha.factor_information_coefficient(
         factor_data,
         group_adjust=group_adjust,
@@ -50,6 +66,24 @@ def mean_information_coefficient(
     by_group: bool = False,
     by_time: str | None = None,
 ) -> pl.DataFrame:
+    """Average information coefficients across dates or calendar buckets.
+
+    Parameters
+    ----------
+    factor_data
+        Clean factor data containing ``factor`` and forward-return columns.
+    group_adjust
+        Demean returns within each date and group before computing IC.
+    by_group
+        Keep groups as separate output partitions.
+    by_time
+        Optional calendar bucket: ``D``, ``W``, ``M``, ``Q``, or ``Y``.
+
+    Returns
+    -------
+    polars.DataFrame
+        Mean IC and observation count by period and requested partitions.
+    """
     return _ferric_alpha.mean_information_coefficient(
         factor_data,
         group_adjust=group_adjust,
@@ -65,6 +99,24 @@ def factor_weights(
     group_adjust: bool = False,
     equal_weight: bool = False,
 ) -> pl.DataFrame:
+    """Construct normalized portfolio weights from factor values.
+
+    Parameters
+    ----------
+    factor_data
+        Clean factor data with ``date``, ``asset``, and ``factor`` columns.
+    demeaned
+        Center exposures to create a dollar-neutral long/short portfolio.
+    group_adjust
+        Normalize each group to equal gross exposure.
+    equal_weight
+        Use factor signs or median splits instead of factor magnitudes.
+
+    Returns
+    -------
+    polars.DataFrame
+        ``date``, ``asset``, optional ``group``, and normalized ``weight``.
+    """
     return _ferric_alpha.factor_weights(
         factor_data,
         demeaned=demeaned,
@@ -81,6 +133,22 @@ def factor_returns(
     equal_weight: bool = False,
     by_asset: bool = False,
 ) -> pl.DataFrame:
+    """Compute factor-weighted forward returns.
+
+    Parameters
+    ----------
+    factor_data
+        Clean factor data with forward-return columns.
+    demeaned, group_adjust, equal_weight
+        Portfolio construction options passed to :func:`factor_weights`.
+    by_asset
+        Return weighted asset contributions instead of date-level totals.
+
+    Returns
+    -------
+    polars.DataFrame
+        Factor returns by ``date`` and ``period``, optionally by ``asset``.
+    """
     return _ferric_alpha.factor_returns(
         factor_data,
         demeaned=demeaned,
@@ -98,6 +166,24 @@ def factor_alpha_beta(
     group_adjust: bool = False,
     equal_weight: bool = False,
 ) -> pl.DataFrame:
+    """Estimate factor alpha and beta against a benchmark return series.
+
+    Parameters
+    ----------
+    factor_data
+        Clean factor data with forward-return columns.
+    returns
+        Optional benchmark DataFrame with ``date``, ``period``, and
+        ``factor_return``. When omitted, the equal-weight universe return is
+        used.
+    demeaned, group_adjust, equal_weight
+        Portfolio construction options used for factor returns.
+
+    Returns
+    -------
+    polars.DataFrame
+        ``period``, raw and annualized ``alpha``, ``beta``, and ``count``.
+    """
     return _ferric_alpha.factor_alpha_beta(
         factor_data,
         returns,
@@ -115,6 +201,26 @@ def mean_return_by_quantile(
     demeaned: bool = True,
     group_adjust: bool = False,
 ) -> pl.DataFrame:
+    """Aggregate forward returns by factor quantile.
+
+    Parameters
+    ----------
+    factor_data
+        Clean factor data with ``factor_quantile`` and forward returns.
+    by_date
+        Keep daily observations instead of averaging across dates.
+    by_group
+        Keep groups as separate output partitions.
+    demeaned
+        Subtract the date-level universe return before aggregation.
+    group_adjust
+        Demean within each date and group.
+
+    Returns
+    -------
+    polars.DataFrame
+        Mean return, standard error, and count by quantile and period.
+    """
     return _ferric_alpha.mean_return_by_quantile(
         factor_data,
         by_date=by_date,
@@ -130,6 +236,23 @@ def compute_mean_returns_spread(
     lower_quant: int,
     std_err: pl.DataFrame | None = None,
 ) -> pl.DataFrame:
+    """Compute an upper-minus-lower quantile return spread.
+
+    Parameters
+    ----------
+    mean_returns
+        Output from :func:`mean_return_by_quantile`.
+    upper_quant, lower_quant
+        Quantile labels to subtract as upper minus lower.
+    std_err
+        Optional separate standard-error table. By default the columns in
+        ``mean_returns`` are used.
+
+    Returns
+    -------
+    polars.DataFrame
+        Aligned ``mean_return_difference`` and ``joint_std_error`` values.
+    """
     return _ferric_alpha.compute_mean_returns_spread(
         mean_returns,
         upper_quant,
@@ -143,6 +266,23 @@ def quantile_turnover(
     quantile: int,
     period: int = 1,
 ) -> pl.DataFrame:
+    """Measure membership turnover for one factor quantile.
+
+    Parameters
+    ----------
+    quantile_factor
+        DataFrame with ``date``, ``asset``, and ``factor_quantile``. Extra
+        columns are allowed.
+    quantile
+        One-indexed quantile to evaluate.
+    period
+        Positive observed-session lag.
+
+    Returns
+    -------
+    polars.DataFrame
+        Turnover by date with ``factor_quantile`` and ``period`` labels.
+    """
     return _ferric_alpha.quantile_turnover(
         quantile_factor,
         _u32_option(quantile, "quantile"),
@@ -154,6 +294,20 @@ def factor_rank_autocorrelation(
     factor_data: pl.DataFrame,
     period: int = 1,
 ) -> pl.DataFrame:
+    """Compute lagged cross-sectional Spearman correlation of factor ranks.
+
+    Parameters
+    ----------
+    factor_data
+        Clean factor data with ``date``, ``asset``, and ``factor`` columns.
+    period
+        Positive observed-session lag.
+
+    Returns
+    -------
+    polars.DataFrame
+        ``date``, ``period``, and ``autocorrelation`` columns.
+    """
     return _ferric_alpha.factor_rank_autocorrelation(
         factor_data, _u32_option(period, "period")
     )

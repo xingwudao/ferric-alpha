@@ -6,6 +6,10 @@ use pyo3::prelude::*;
 use pyo3::types::{PyBytes, PyDict, PyList};
 use pyo3_polars::PyDataFrame;
 
+/// Row-loss accounting returned by factor-data cleaning.
+///
+/// Inspect `input_rows`, `output_rows`, `forward_return_loss`, and
+/// `quantile_loss` to decide whether data loss is acceptable.
 #[pyclass(name = "LossReport", skip_from_py_object)]
 #[derive(Clone)]
 struct PyLossReport {
@@ -30,12 +34,19 @@ impl From<ferric_alpha::LossReport> for PyLossReport {
     }
 }
 
+/// Clean factor data together with explicit row-loss accounting.
+///
+/// `frame` is a Polars DataFrame ready for performance analysis. `loss` is a
+/// `LossReport` describing rows removed while computing returns and quantiles.
 #[pyclass(name = "CleanFactorResult")]
 struct PyCleanFactorResult {
     frame: polars::prelude::DataFrame,
     loss: PyLossReport,
 }
 
+/// Portfolio series suitable for downstream performance analysis.
+///
+/// `returns` and `positions` are Polars DataFrames. `benchmark` is optional.
 #[pyclass(name = "PyfolioInput")]
 struct PyPyfolioInput {
     returns: polars::prelude::DataFrame,
@@ -43,6 +54,11 @@ struct PyPyfolioInput {
     benchmark: Option<polars::prelude::DataFrame>,
 }
 
+/// Serializable data contract used by Ferric Alpha tear-sheet renderers.
+///
+/// Use `table_ids()` to discover tables, `table(id)` to obtain a Polars
+/// DataFrame, `table_metadata(id)` for display metadata, and `to_json()` for
+/// persistence. Recreate a report with `from_json()`.
 #[pyclass(name = "TearSheetData", skip_from_py_object)]
 #[derive(Clone)]
 struct PyTearSheetData {

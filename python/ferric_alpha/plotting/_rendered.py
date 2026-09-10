@@ -24,6 +24,13 @@ _HTML_SUFFIX = "</body></html>"
 
 
 class RenderedTearSheet:
+    """Immutable native tear-sheet output.
+
+    The ``format`` property identifies HTML, SVG, or PNG output. ``content``
+    exposes the complete text or bytes payload, while ``width`` and ``height``
+    describe its dimensions. Use ``save(path)`` with a matching extension.
+    """
+
     __slots__ = ("_format", "_payload", "_width", "_height")
 
     def __init__(
@@ -76,6 +83,7 @@ class RenderedTearSheet:
         return None
 
     def save(self, path: str | Path) -> None:
+        """Write the rendered report to a path with a matching extension."""
         path = Path(path)
         expected = f".{self._format}"
         if path.suffix != expected:

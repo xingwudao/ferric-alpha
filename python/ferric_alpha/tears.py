@@ -197,6 +197,31 @@ def create_full_tear_sheet_data(
     turnover_periods: list[int] | tuple[int, ...] | None = None,
     ic_rolling_window: int = 22,
 ) -> TearSheetData:
+    """Build the complete serializable factor-analysis report model.
+
+    Parameters
+    ----------
+    factor_data
+        Clean factor data containing factor values, quantiles, groups when
+        available, and forward-return columns.
+    long_short
+        Use demeaned factor weights for long/short return analysis.
+    group_neutral
+        Demean returns and normalize weights within groups.
+    by_group
+        Include group-level return and information-coefficient panels.
+    turnover_periods
+        Optional observed-session lags for turnover panels. By default the
+        available forward-return periods are used.
+    ic_rolling_window
+        Positive number of observations in the rolling IC panel.
+
+    Returns
+    -------
+    TearSheetData
+        Serializable tables and panel metadata accepted by
+        :func:`ferric_alpha.plotting.render`.
+    """
     return _ferric_alpha.create_full_tear_sheet_data(
         factor_data,
         long_short,

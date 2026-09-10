@@ -58,6 +58,20 @@ def non_unique_bin_edges_error(func):
 
 
 def validate_factor_frame(frame: pl.DataFrame) -> pl.DataFrame:
+    """Validate and sort a long-form factor DataFrame.
+
+    Parameters
+    ----------
+    frame
+        Polars DataFrame with unique ``date``/``asset`` keys, a Datetime
+        ``date``, String ``asset``, Float64 ``factor``, and optional String
+        ``group`` column.
+
+    Returns
+    -------
+    polars.DataFrame
+        A copy sorted by ``date`` and ``asset`` with the input schema retained.
+    """
     return _validate_factor_frame(frame)
 
 
@@ -68,6 +82,28 @@ def compute_forward_returns(
     filter_zscore: float | None = None,
     cumulative_returns: bool = True,
 ) -> pl.DataFrame:
+    """Compute observation-based forward returns from long-form prices.
+
+    Parameters
+    ----------
+    factor
+        Factor observations with ``date``, ``asset``, and ``factor`` columns.
+    prices
+        Long-form prices with ``date``, ``asset``, and positive Float64
+        ``price`` columns.
+    periods
+        Positive observed-session horizons. ``(1, 5)`` produces
+        ``forward_return_1D`` and ``forward_return_5D``.
+    filter_zscore
+        Optional cross-sectional outlier threshold.
+    cumulative_returns
+        Compute total horizon returns when true, otherwise period changes.
+
+    Returns
+    -------
+    polars.DataFrame
+        ``date``/``asset`` keys and one Float64 forward-return column per period.
+    """
     try:
         return _compute_forward_returns(
             factor, prices, list(periods), filter_zscore, cumulative_returns
@@ -84,6 +120,27 @@ def quantize_factor(
     by_group: bool = False,
     zero_aware: bool = False,
 ) -> pl.DataFrame:
+    """Assign factor observations to quantiles or value bins.
+
+    Parameters
+    ----------
+    factor
+        Valid long-form factor data.
+    quantiles
+        Number of equal-frequency buckets or explicit quantile edges. Set to
+        ``None`` when using ``bins``.
+    bins
+        Number of equal-width bins or explicit value edges.
+    by_group
+        Partition each date by ``group`` before assigning buckets.
+    zero_aware
+        Bucket negative and non-negative observations separately.
+
+    Returns
+    -------
+    polars.DataFrame
+        Input keys plus a UInt32 ``factor_quantile`` column.
+    """
     return _quantize_factor(
         factor,
         quantiles,
@@ -106,6 +163,34 @@ def get_clean_factor(
     binning_by_group: bool = False,
     zero_aware: bool = False,
 ) -> CleanFactorResult:
+    """Join factor observations to precomputed returns and assign quantiles.
+
+    Parameters
+    ----------
+    factor
+        Long-form factor data.
+    forward_returns
+        DataFrame keyed by ``date`` and ``asset`` with columns named like
+        ``forward_return_1D``.
+    quantiles, bins
+        Bucket specification; exactly one mode must be active.
+    groupby
+        Optional mapping from asset name to group label. A pre-existing String
+        ``group`` column may be used instead.
+    groupby_labels
+        Optional mapping applied to values supplied by ``groupby``.
+    max_loss
+        Maximum allowed fraction of rows removed during cleaning.
+    by_group, binning_by_group
+        Assign buckets within each group.
+    zero_aware
+        Bucket negative and non-negative observations separately.
+
+    Returns
+    -------
+    CleanFactorResult
+        ``frame`` contains analysis-ready Polars data; ``loss`` reports removals.
+    """
     factor = _attach_groupby(factor, groupby, groupby_labels)
     by_group = by_group or binning_by_group
     try:
@@ -138,6 +223,39 @@ def get_clean_factor_and_forward_returns(
     cumulative_returns: bool = True,
     filter_zscore: float | None = 20.0,
 ) -> CleanFactorResult:
+    """Build analysis-ready factor data directly from factor values and prices.
+
+    Parameters
+    ----------
+    factor
+        Long-form factor observations keyed by ``date`` and ``asset``.
+    prices
+        Long-form prices with ``date``, ``asset``, and ``price`` columns.
+    periods
+        Positive observed-session forward-return horizons.
+    quantiles, bins
+        Bucket specification; exactly one mode must be active.
+    groupby
+        Optional asset-to-group mapping. A String ``group`` column already in
+        ``factor`` is also accepted.
+    groupby_labels
+        Optional labels applied to values supplied by ``groupby``.
+    max_loss
+        Maximum allowed fraction of rows removed from the factor input.
+    by_group, binning_by_group
+        Assign buckets within each group.
+    zero_aware
+        Bucket negative and non-negative observations separately.
+    cumulative_returns
+        Compute total returns over each horizon.
+    filter_zscore
+        Optional cross-sectional forward-return outlier threshold.
+
+    Returns
+    -------
+    CleanFactorResult
+        Analysis-ready ``frame`` and a row-level ``loss`` summary.
+    """
     factor = _attach_groupby(factor, groupby, groupby_labels)
     by_group = by_group or binning_by_group
     try:
