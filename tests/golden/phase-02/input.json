@@ -1,5 +1,5 @@
 {
-  "description": "Ferric Alpha Phase 02 synthetic factor data for Alphalens oracle generation.",
+  "description": "Ferric Alpha Phase 02 synthetic factor regression data.",
   "date_timezone": "UTC",
   "columns": {
     "date": "ISO-8601 date",

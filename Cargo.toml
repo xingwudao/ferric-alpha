@@ -11,7 +11,7 @@ version = "0.1.0"
 edition = "2024"
 rust-version = "1.91"
 license = "0BSD"
-repository = "https://github.com/ferric-alpha/ferric-alpha"
+repository = "https://github.com/xingwudao/ferric-alpha"
 
 [workspace.dependencies]
 approx = "0.5"

@@ -56,20 +56,8 @@ struct GoldenRecord {
     position: Option<f64>,
 }
 
-#[derive(Debug, Deserialize)]
-struct Defect {
-    exception: String,
-    message: String,
-}
-
-#[derive(Debug, Deserialize)]
-struct Defects {
-    factor_cumulative_returns: Defect,
-    create_pyfolio_input: Defect,
-}
-
 #[test]
-fn phase_03_matches_callable_alphalens_golden_outputs() {
+fn phase_03_matches_ferric_numeric_baseline() {
     let input = load_input();
     assert!(input.rows.iter().any(|left| {
         input.rows.iter().any(|right| {
@@ -173,7 +161,7 @@ fn phase_03_matches_callable_alphalens_golden_outputs() {
             ("position", DataType::Float64),
         ],
     );
-    assert_upstream_position_projection(
+    assert_position_projection(
         &raw_positions,
         load_records(include_str!(
             "../../../tests/golden/phase-03/positions.json"
@@ -201,24 +189,12 @@ fn phase_03_matches_callable_alphalens_golden_outputs() {
             ("position", DataType::Float64),
         ],
     );
-    assert_upstream_position_projection(
+    assert_position_projection(
         &simulated,
         load_records(include_str!(
             "../../../tests/golden/phase-03/factor_positions.json"
         )),
     );
-
-    let defects: Defects = serde_json::from_str(include_str!(
-        "../../../tests/golden/phase-03/upstream_defects.json"
-    ))
-    .unwrap();
-    for defect in [
-        defects.factor_cumulative_returns,
-        defects.create_pyfolio_input,
-    ] {
-        assert_eq!(defect.exception, "TypeError");
-        assert!(defect.message.contains("cumulative_returns"));
-    }
 }
 
 fn load_input() -> Input {
@@ -385,10 +361,9 @@ fn assert_schema(actual: &DataFrame, expected: &[(&str, DataType)]) {
     }
 }
 
-// Alphalens omits synthetic cash and derives a different BDay calendar. This
-// projection compares only the common upstream keys; the full Ferric contract
-// is asserted separately below.
-fn assert_upstream_position_projection(actual: &DataFrame, expected: Vec<GoldenRecord>) {
+// The projection covers assets shared with the compact baseline. The complete
+// Ferric position contract, including synthetic cash, is asserted separately.
+fn assert_position_projection(actual: &DataFrame, expected: Vec<GoldenRecord>) {
     let expected_keys = expected
         .iter()
         .map(|record| (record.date.clone(), record.asset.clone().unwrap()))

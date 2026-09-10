@@ -59,7 +59,7 @@ enum ReturnValue {
 }
 
 #[test]
-fn phase_04_matches_public_alphalens_numeric_projections() {
+fn phase_04_matches_ferric_numeric_baseline() {
     let input = load_input();
     assert_synthetic_input_shape(&input);
 
@@ -152,16 +152,6 @@ fn phase_04_matches_public_alphalens_numeric_projections() {
     );
 
     let event_capture = load_json("event_returns.json");
-    let upstream_event_records = event_capture["upstream_average_cumulative_returns"]
-        .as_array()
-        .unwrap();
-    assert!(!upstream_event_records.is_empty());
-    assert!(
-        upstream_event_records
-            .iter()
-            .all(|record| record.get("mean_cumulative_return").is_some()
-                && record.get("std_cumulative_return").is_some())
-    );
     let event_options = EventReturnsOptions {
         periods_before: 2,
         periods_after: 2,
@@ -196,7 +186,7 @@ fn phase_04_ferric_contract_matches_complete_fixture() {
 }
 
 #[test]
-#[ignore = "helper invoked by tools/generate_phase_04_golden.py"]
+#[ignore = "exports the Ferric Phase 04 contract for local fixture maintenance"]
 fn export_phase_04_ferric_contract() {
     let Some(output) = env::var_os("FERRIC_ALPHA_PHASE04_CONTRACT_OUT") else {
         return;

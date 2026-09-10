@@ -401,7 +401,7 @@
       "group": "utilities"
     }
   ],
-  "description": "Phase 04 synthetic oracle input with shuffled forward-return columns.",
+  "description": "Ferric Alpha Phase 04 synthetic regression input with shuffled forward-return columns.",
   "event_returns": [
     {
       "asset": "A",

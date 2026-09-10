@@ -1,11 +1,14 @@
 # Local planning and implementation process records.
 /docs/superpowers/
+/docs/process/
 /.superpowers/
 
 # Local-only compatibility and oracle workspaces.
 /.compat/
 /.oracle/
 /.alphalens-shadow/
+/tools/oracle/
+/tests/oracle/
 
 # Rust build output.
 /target/

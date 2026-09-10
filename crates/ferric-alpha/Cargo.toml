@@ -1,6 +1,6 @@
 [package]
 name = "ferric-alpha"
-description = "High-performance factor analysis built with Rust and Polars"
+description = "AlphaLens-style high-performance factor analysis built with Rust and Polars"
 version.workspace = true
 edition.workspace = true
 rust-version.workspace = true

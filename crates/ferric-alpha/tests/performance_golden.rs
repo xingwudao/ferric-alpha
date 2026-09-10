@@ -57,7 +57,7 @@ struct QuantileGolden {
 }
 
 #[test]
-fn phase_02_matches_alphalens_golden_outputs() {
+fn phase_02_matches_ferric_numeric_baseline() {
     let input: Input =
         serde_json::from_str(include_str!("../../../tests/golden/phase-02/input.json")).unwrap();
     let frame = input_frame(&input);

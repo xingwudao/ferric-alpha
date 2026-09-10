@@ -5,7 +5,7 @@ PYTEST := $(VENV)/bin/pytest
 RUFF := $(VENV)/bin/ruff
 SETUP_STAMP := $(VENV)/.setup-stamp
 
-.PHONY: setup develop format lint test verify golden-check oracle-check visual-check
+.PHONY: setup develop format lint test verify golden-check visual-check
 
 setup: $(SETUP_STAMP)
 
@@ -36,9 +36,6 @@ verify: format lint test
 
 golden-check: develop
 	$(PYTHON) tools/generate_phase_05_golden.py --check
-
-oracle-check: develop
-	$(PYTHON) tools/generate_phase_04_golden.py --check
 
 visual-check: setup
 	$(PYTHON) -m pip install "playwright==1.55.0"

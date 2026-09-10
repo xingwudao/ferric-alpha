@@ -65,23 +65,7 @@ make visual-check
 ```
 
 `make golden-check` verifies the golden artifacts committed in this repository.
-It must not require the upstream AlphaLens package.
-
-Use the optional oracle check when intentionally refreshing or auditing
-compatibility against pinned upstream AlphaLens behavior:
-
-```bash
-make oracle-check
-```
-
-`make oracle-check` requires the upstream `alphalens` Python package in the
-active development environment. That package is a maintenance oracle only; it is
-not a runtime, test, or default development dependency for Ferric Alpha.
-
-`make oracle-check` is transitional. Keep it only while the project is still
-auditing parity with AlphaLens. After the final compatibility audit, preserve
-the accepted behavior as Ferric Alpha-owned golden fixtures and remove the
-AlphaLens oracle path.
+It uses only Ferric Alpha-owned fixtures and development dependencies.
 
 If `make visual-check` cannot run on a machine because browser dependencies are
 missing, record that fact in the commit message body and run it in CI before

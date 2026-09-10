@@ -1,15 +1,11 @@
 [package]
 name = "ferric-alpha-render"
-description = "Native rendering for Ferric Alpha tear-sheet reports"
+description = "Native rendering for Ferric Alpha AlphaLens-style tear-sheet reports"
 version.workspace = true
 edition.workspace = true
 rust-version.workspace = true
 license.workspace = true
 repository.workspace = true
-exclude = [
-    "assets/fonts/NotoSansSC-wght.ttf",
-    "assets/fonts/OFL.txt",
-]
 
 [lib]
 name = "ferric_alpha_render"
