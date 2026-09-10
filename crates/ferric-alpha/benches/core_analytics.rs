@@ -11,7 +11,7 @@ use ferric_alpha::{
 };
 use polars::prelude::*;
 
-fn benchmark_phase_02(c: &mut Criterion) {
+fn benchmark_core_analytics(c: &mut Criterion) {
     let full = std::env::var_os("FERRIC_ALPHA_FULL_BENCH").is_some();
     for assets in [250, 1_000, 5_000] {
         for sessions in [252, 1_260] {
@@ -254,5 +254,5 @@ fn synthetic_event_returns(assets: usize, sessions: usize) -> DataFrame {
     .unwrap()
 }
 
-criterion_group!(benches, benchmark_phase_02);
+criterion_group!(benches, benchmark_core_analytics);
 criterion_main!(benches);

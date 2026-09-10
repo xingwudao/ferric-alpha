@@ -1,6 +1,6 @@
 [package]
 name = "ferric-alpha-py"
-description = "Python bindings for Ferric Alpha AlphaLens-style factor analysis"
+description = "Python bindings for Ferric Alpha alphalens-style factor analysis"
 publish = false
 version.workspace = true
 edition.workspace = true

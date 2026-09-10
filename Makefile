@@ -20,13 +20,13 @@ develop: setup
 
 format: setup
 	cargo fmt --all --check
-	$(RUFF) format --check python tests/python tools
+	$(RUFF) format --check python tests/python scripts
 
 lint: setup
 	cargo clippy --workspace --all-targets -- -D warnings
 	cargo clippy -p ferric-alpha-py --all-targets \
 		--features extension-module -- -D warnings
-	$(RUFF) check python tests/python tools
+	$(RUFF) check python tests/python scripts
 
 test: develop
 	cargo test --workspace
@@ -35,7 +35,7 @@ test: develop
 verify: format lint test
 
 golden-check: develop
-	$(PYTHON) tools/generate_phase_05_golden.py --check
+	$(PYTHON) scripts/generate_render_golden.py --check
 
 visual-check: setup
 	$(PYTHON) -m pip install "playwright==1.55.0"

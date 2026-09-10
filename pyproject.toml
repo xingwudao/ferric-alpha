@@ -5,7 +5,7 @@ build-backend = "maturin"
 [project]
 name = "ferric-alpha"
 version = "0.1.0"
-description = "AlphaLens-style high-performance factor analysis built with Rust and Polars"
+description = "alphalens-style high-performance factor analysis built with Rust and Polars"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "0BSD"

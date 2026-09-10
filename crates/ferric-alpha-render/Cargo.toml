@@ -1,6 +1,6 @@
 [package]
 name = "ferric-alpha-render"
-description = "Native rendering for Ferric Alpha AlphaLens-style tear-sheet reports"
+description = "Native rendering for Ferric Alpha alphalens-style tear-sheet reports"
 version.workspace = true
 edition.workspace = true
 rust-version.workspace = true

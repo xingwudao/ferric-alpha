@@ -2,7 +2,7 @@
 
 This example runs a complete cross-sectional factor study with Polars and the
 Ferric Alpha Python API. It requires no Pandas, SciPy, Statsmodels, or
-AlphaLens installation.
+alphalens installation.
 
 ## Install
 
