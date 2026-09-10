@@ -1,5 +1,9 @@
 # Quickstart
 
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 Run the complete factor-analysis example after building from source:
 
 ```bash
@@ -38,3 +42,18 @@ fa.plotting.render(report).save("factor-report.html")
 `results.json` is intended for automated checks and scripted research
 workflows. `factor-report.html` is a self-contained native HTML tear sheet
 that can be opened without Matplotlib.
+
+## Visual Output
+
+The quickstart also renders a native tear sheet. The preview below is generated
+from the same deterministic example data used by `examples/factor_quickstart.py`.
+
+<figure class="quickstart-preview">
+  <img :src="withBase('/quickstart-report.svg')" alt="Ferric Alpha quickstart tear sheet preview">
+</figure>
+
+The full HTML report keeps the same charts and tables in a self-contained file:
+
+```bash
+open quickstart-output/factor-report.html
+```

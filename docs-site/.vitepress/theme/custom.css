@@ -18,3 +18,17 @@
 .vp-doc h2 {
   margin-top: 2rem;
 }
+
+.quickstart-preview {
+  max-height: 760px;
+  overflow: auto;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background: var(--vp-c-bg);
+}
+
+.quickstart-preview img {
+  display: block;
+  width: 100%;
+  max-width: none;
+}
