@@ -6,6 +6,11 @@ edition.workspace = true
 rust-version.workspace = true
 license.workspace = true
 repository.workspace = true
+homepage.workspace = true
+documentation = "https://docs.rs/ferric-alpha-render"
+readme = "../../README.md"
+keywords = ["alphalens", "factor-analysis", "plotting", "quant", "rust"]
+categories = ["science", "visualization"]
 
 [lib]
 name = "ferric_alpha_render"

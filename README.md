@@ -4,7 +4,8 @@ Ferric Alpha is a high-performance Rust implementation of factor analysis
 workflows inspired by alphalens. It uses Polars as its core table engine and
 provides both Rust and Python APIs.
 
-The project is under active development. No public release is available yet.
+The project is in pre-alpha. The `0.1.x` releases are intended for early
+factor research, API feedback, and compatibility validation.
 
 ## Current scope
 

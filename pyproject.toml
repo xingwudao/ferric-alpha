@@ -19,6 +19,13 @@ classifiers = [
 ]
 keywords = ["alphalens", "factor-analysis", "quant", "polars", "rust"]
 
+[project.urls]
+Homepage = "https://xingwudao.github.io/ferric-alpha/"
+Documentation = "https://xingwudao.github.io/ferric-alpha/"
+Repository = "https://github.com/xingwudao/ferric-alpha"
+Issues = "https://github.com/xingwudao/ferric-alpha/issues"
+Changelog = "https://github.com/xingwudao/ferric-alpha/releases"
+
 [project.optional-dependencies]
 plot = ["matplotlib>=3.8,<3.11"]
 notebook = ["ipython>=8,<10"]
@@ -28,3 +35,4 @@ manifest-path = "crates/ferric-alpha-py/Cargo.toml"
 python-source = "python"
 module-name = "ferric_alpha._ferric_alpha"
 features = ["extension-module"]
+include = [{ path = "LICENSE", format = "sdist" }]
