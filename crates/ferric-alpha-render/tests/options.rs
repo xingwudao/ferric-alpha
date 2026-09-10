@@ -170,10 +170,10 @@ fn render_errors_have_stable_messages() {
 fn font_assets_are_pinned_and_registration_is_idempotent() {
     assert_eq!(
         font_sha256(),
-        "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+        "06cba01eb71ea5cbd3a7df498910624db68953beead4be18fd91f8ec7dc72351"
     );
-    assert_eq!(font_bytes().len(), 17_772_300);
-    assert!(font_license().contains("SIL OPEN FONT LICENSE Version 1.1"));
+    assert!(font_bytes().len() < 512 * 1024);
+    assert!(font_license().contains("Apache License"));
 
     ensure_font_registered().unwrap();
     ensure_font_registered().unwrap();

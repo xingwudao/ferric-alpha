@@ -4,7 +4,7 @@ use plotters::style::{FontStyle, register_font};
 
 use crate::{RenderError, RenderResult};
 
-pub const FONT_FAMILY: &str = "Ferric Noto Sans SC";
+pub const FONT_FAMILY: &str = "Roboto";
 
 static FONT_REGISTRATION: OnceLock<()> = OnceLock::new();
 
@@ -16,7 +16,7 @@ pub fn ensure_font_registered() -> RenderResult<()> {
     register_font(FONT_FAMILY, FontStyle::Normal, font_bytes()).map_err(|_| {
         RenderError::Backend {
             format: "font",
-            message: "failed to register bundled Noto Sans SC".to_string(),
+            message: "failed to register bundled Roboto font".to_string(),
         }
     })?;
     let _ = FONT_REGISTRATION.set(());
@@ -25,14 +25,14 @@ pub fn ensure_font_registered() -> RenderResult<()> {
 
 #[doc(hidden)]
 pub fn font_bytes() -> &'static [u8] {
-    include_bytes!("../assets/fonts/NotoSansSC-wght.ttf")
+    include_bytes!("../assets/fonts/RobotoStatic-Regular.ttf")
 }
 
 #[doc(hidden)]
 pub fn font_license() -> &'static str {
-    include_str!("../assets/fonts/OFL.txt")
+    include_str!("../assets/fonts/Roboto-NOTICE.txt")
 }
 
 pub fn font_sha256() -> &'static str {
-    "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    "06cba01eb71ea5cbd3a7df498910624db68953beead4be18fd91f8ec7dc72351"
 }
