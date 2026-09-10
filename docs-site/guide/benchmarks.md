@@ -1,5 +1,9 @@
 # Benchmarks
 
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 The benchmark below compares the Python-facing `ferric-alpha` API with
 `alphalens` on the same deterministic long/short factor fixture. It measures
 function execution time only; fixture construction is outside the timed block.
@@ -13,6 +17,10 @@ function execution time only; fixture construction is outside the timed block.
 - Rank autocorrelation recheck: median of `7` runs, `15` iterations per run
 - `ferric-alpha`: `0.1.0`, release build, Python `3.13.4`, Polars `1.42.1`
 - `alphalens`: `0.4.0`, Python `3.9.25`, Pandas `1.5.3`, NumPy `1.23.5`
+
+<figure>
+  <img :src="withBase('/performance-comparison.svg')" alt="Ferric Alpha performance comparison with alphalens">
+</figure>
 
 ## Results
 

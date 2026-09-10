@@ -29,6 +29,8 @@ Benchmark setup:
 - `ferric-alpha`: `0.1.0`, release build, Python `3.13.4`, Polars `1.42.1`
 - `alphalens`: `0.4.0`, Python `3.9.25`, Pandas `1.5.3`, NumPy `1.23.5`
 
+![Ferric Alpha performance comparison with alphalens](./ferric-alpha-performance-comparison.svg)
+
 Results where `ferric-alpha` is faster:
 
 | Metric | ferric-alpha | alphalens | Result |

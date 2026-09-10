@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Ferric Alpha versus alphalens performance comparison</title>
+  <desc id="desc">Horizontal grouped bar chart comparing execution time in milliseconds across six factor analysis metrics, with speedup labels for Ferric Alpha over alphalens.</desc>
+  <rect width="1200" height="720" fill="#ffffff"/>
+  <text x="70" y="58" fill="#1f2933" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">Ferric Alpha vs alphalens: core factor analysis speed</text>
+  <text x="70" y="90" fill="#52606d" font-family="Inter, Arial, sans-serif" font-size="16">Lower execution time is better. Same deterministic 250-asset x 252-session fixture; function time only.</text>
+
+  <g transform="translate(70 116)" font-family="Inter, Arial, sans-serif">
+    <rect x="0" y="0" width="16" height="16" fill="#cbd2d9"/>
+    <text x="24" y="13" fill="#323f4b" font-size="15">alphalens 0.4.0</text>
+    <rect x="176" y="0" width="16" height="16" fill="#b91c1c"/>
+    <text x="200" y="13" fill="#323f4b" font-size="15">ferric-alpha 0.1.0</text>
+    <text x="420" y="13" fill="#52606d" font-size="15">Bar length = milliseconds</text>
+  </g>
+
+  <g transform="translate(345 152)" stroke="#e4e7eb" stroke-width="1">
+    <line x1="0" y1="0" x2="0" y2="486"/>
+    <line x1="150" y1="0" x2="150" y2="486"/>
+    <line x1="300" y1="0" x2="300" y2="486"/>
+    <line x1="450" y1="0" x2="450" y2="486"/>
+    <line x1="600" y1="0" x2="600" y2="486"/>
+  </g>
+
+  <g transform="translate(345 657)" font-family="Inter, Arial, sans-serif" fill="#52606d" font-size="13">
+    <text x="0" y="0" text-anchor="middle">0 ms</text>
+    <text x="150" y="0" text-anchor="middle">30</text>
+    <text x="300" y="0" text-anchor="middle">60</text>
+    <text x="450" y="0" text-anchor="middle">90</text>
+    <text x="600" y="0" text-anchor="middle">120</text>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="14" fill="#1f2933">
+    <g transform="translate(70 165)">
+      <text x="0" y="20" font-size="15" font-weight="600">information coefficient</text>
+      <rect x="275" y="0" width="621.0" height="18" rx="2" fill="#cbd2d9"/>
+      <rect x="275" y="24" width="68.1" height="18" rx="2" fill="#b91c1c"/>
+      <text x="905" y="14" fill="#52606d">124.205 ms</text>
+      <text x="353" y="38" fill="#7f1d1d" font-weight="700">13.616 ms</text>
+      <text x="1030" y="29" fill="#7f1d1d" font-size="20" font-weight="800">9.1x faster</text>
+    </g>
+
+    <g transform="translate(70 245)">
+      <text x="0" y="20" font-size="15" font-weight="600">factor returns</text>
+      <rect x="275" y="0" width="232.1" height="18" rx="2" fill="#cbd2d9"/>
+      <rect x="275" y="24" width="58.9" height="18" rx="2" fill="#b91c1c"/>
+      <text x="517" y="14" fill="#52606d">46.425 ms</text>
+      <text x="344" y="38" fill="#7f1d1d" font-weight="700">11.778 ms</text>
+      <text x="1030" y="29" fill="#7f1d1d" font-size="20" font-weight="800">3.9x faster</text>
+    </g>
+
+    <g transform="translate(70 325)">
+      <text x="0" y="20" font-size="15" font-weight="600">factor weights</text>
+      <rect x="275" y="0" width="216.7" height="18" rx="2" fill="#cbd2d9"/>
+      <rect x="275" y="24" width="75.8" height="18" rx="2" fill="#b91c1c"/>
+      <text x="502" y="14" fill="#52606d">43.330 ms</text>
+      <text x="361" y="38" fill="#7f1d1d" font-weight="700">15.153 ms</text>
+      <text x="1030" y="29" fill="#7f1d1d" font-size="20" font-weight="800">2.9x faster</text>
+    </g>
+
+    <g transform="translate(70 405)">
+      <text x="0" y="20" font-size="15" font-weight="600">mean return by quantile</text>
+      <rect x="275" y="0" width="304.5" height="18" rx="2" fill="#cbd2d9"/>
+      <rect x="275" y="24" width="105.1" height="18" rx="2" fill="#b91c1c"/>
+      <text x="590" y="14" fill="#52606d">60.900 ms</text>
+      <text x="390" y="38" fill="#7f1d1d" font-weight="700">21.022 ms</text>
+      <text x="1030" y="29" fill="#7f1d1d" font-size="20" font-weight="800">2.9x faster</text>
+    </g>
+
+    <g transform="translate(70 485)">
+      <text x="0" y="20" font-size="15" font-weight="600">quantile turnover</text>
+      <rect x="275" y="0" width="30.7" height="18" rx="2" fill="#cbd2d9"/>
+      <rect x="275" y="24" width="15.1" height="18" rx="2" fill="#b91c1c"/>
+      <text x="318" y="14" fill="#52606d">6.136 ms</text>
+      <text x="303" y="38" fill="#7f1d1d" font-weight="700">3.018 ms</text>
+      <text x="1030" y="29" fill="#7f1d1d" font-size="20" font-weight="800">2.0x faster</text>
+    </g>
+
+    <g transform="translate(70 565)">
+      <text x="0" y="20" font-size="15" font-weight="600">rank autocorrelation</text>
+      <rect x="275" y="0" width="77.5" height="18" rx="2" fill="#cbd2d9"/>
+      <rect x="275" y="24" width="34.1" height="18" rx="2" fill="#b91c1c"/>
+      <text x="364" y="14" fill="#52606d">15.497 ms</text>
+      <text x="320" y="38" fill="#7f1d1d" font-weight="700">6.823 ms</text>
+      <text x="1030" y="29" fill="#7f1d1d" font-size="20" font-weight="800">2.3x faster</text>
+    </g>
+  </g>
+
+  <text x="70" y="696" fill="#52606d" font-family="Inter, Arial, sans-serif" font-size="13">Source: repository benchmark docs. Hardware and environment dependent; lower milliseconds are better.</text>
+</svg>
