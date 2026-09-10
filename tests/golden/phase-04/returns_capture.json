@@ -1,0 +1,195 @@
+{
+  "factor_returns": [
+    {
+      "date": "2024-01-02",
+      "factor_return": 0.00702922077922078,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-02",
+      "factor_return": 0.015450892857142857,
+      "period": "3D"
+    },
+    {
+      "date": "2024-01-02",
+      "factor_return": 0.021790584415584416,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_return": 0.006860887096774194,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_return": 0.014386290322580644,
+      "period": "3D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_return": 0.02126875,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-04",
+      "factor_return": 0.0065085470085470085,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-04",
+      "factor_return": 0.013966239316239314,
+      "period": "3D"
+    },
+    {
+      "date": "2024-01-04",
+      "factor_return": 0.020176495726495727,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-05",
+      "factor_return": 0.006,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-05",
+      "factor_return": 0.013865322580645162,
+      "period": "3D"
+    },
+    {
+      "date": "2024-01-05",
+      "factor_return": 0.0186,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-08",
+      "factor_return": 0.005659829721362229,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-08",
+      "factor_return": 0.011773792569659445,
+      "period": "3D"
+    },
+    {
+      "date": "2024-01-08",
+      "factor_return": 0.017545472136222914,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-09",
+      "factor_return": 0.005393939393939394,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-09",
+      "factor_return": 0.011584848484848484,
+      "period": "3D"
+    },
+    {
+      "date": "2024-01-09",
+      "factor_return": 0.016721212121212123,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-10",
+      "factor_return": 0.0064904371584699454,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-10",
+      "factor_return": 0.01381912568306011,
+      "period": "3D"
+    },
+    {
+      "date": "2024-01-10",
+      "factor_return": 0.019091256830601096,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-11",
+      "factor_return": 0.005508196721311476,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-11",
+      "factor_return": 0.012388524590163935,
+      "period": "3D"
+    },
+    {
+      "date": "2024-01-11",
+      "factor_return": 0.017075409836065574,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-16",
+      "factor_return": 0.006244736842105263,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-16",
+      "factor_return": 0.013564736842105265,
+      "period": "3D"
+    },
+    {
+      "date": "2024-01-16",
+      "factor_return": 0.019358684210526316,
+      "period": "5D"
+    }
+  ],
+  "mean_by_quantile": [
+    {
+      "factor_quantile": 1,
+      "mean_return": -0.006686111111111059,
+      "period": "1D",
+      "std_error": 0.0004750933956264821
+    },
+    {
+      "factor_quantile": 1,
+      "mean_return": -0.004932063032317413,
+      "period": "3D",
+      "std_error": 0.0006073851057333121
+    },
+    {
+      "factor_quantile": 1,
+      "mean_return": -0.004171434641086602,
+      "period": "5D",
+      "std_error": 0.0006485258687740494
+    },
+    {
+      "factor_quantile": 2,
+      "mean_return": -0.0003750000000000142,
+      "period": "1D",
+      "std_error": 0.0003870741387497863
+    },
+    {
+      "factor_quantile": 2,
+      "mean_return": -0.00011075300651630648,
+      "period": "3D",
+      "std_error": 0.000593540676769018
+    },
+    {
+      "factor_quantile": 2,
+      "mean_return": -0.00019985764797236794,
+      "period": "5D",
+      "std_error": 0.0005188721446263383
+    },
+    {
+      "factor_quantile": 3,
+      "mean_return": 0.006402777777777757,
+      "period": "1D",
+      "std_error": 0.00036372982104310533
+    },
+    {
+      "factor_quantile": 3,
+      "mean_return": 0.0046689081123982845,
+      "period": "3D",
+      "std_error": 0.00048533281610337395
+    },
+    {
+      "factor_quantile": 3,
+      "mean_return": 0.003947051672668067,
+      "period": "5D",
+      "std_error": 0.0004954345735479777
+    }
+  ]
+}

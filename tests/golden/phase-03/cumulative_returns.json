@@ -1,0 +1,18 @@
+[
+  {
+    "cumulative_return": 1.1,
+    "date": "2024-01-02"
+  },
+  {
+    "cumulative_return": 1.1,
+    "date": "2024-01-03"
+  },
+  {
+    "cumulative_return": 0.8800000000000001,
+    "date": "2024-01-04"
+  },
+  {
+    "cumulative_return": 0.9240000000000002,
+    "date": "2024-01-05"
+  }
+]

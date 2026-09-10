@@ -1,0 +1,60 @@
+{
+  "display_table": [
+    {
+      "count": 13,
+      "count %": 31.70731707317073,
+      "factor_quantile": 1,
+      "max": -0.8200000000000001,
+      "mean": -1.0476923076923077,
+      "min": -1.25,
+      "std": 0.14601106385897886
+    },
+    {
+      "count": 14,
+      "count %": 34.146341463414636,
+      "factor_quantile": 2,
+      "max": 0.35,
+      "mean": 0.10571428571428572,
+      "min": -0.05000000000000002,
+      "std": 0.13007183138051573
+    },
+    {
+      "count": 14,
+      "count %": 34.146341463414636,
+      "factor_quantile": 3,
+      "max": 1.4800000000000002,
+      "mean": 1.2721428571428572,
+      "min": 1.11,
+      "std": 0.10363980312220197
+    }
+  ],
+  "ferric_projection": [
+    {
+      "count": 13,
+      "count_percent": 0.3170731707317073,
+      "factor_max": -0.8200000000000001,
+      "factor_mean": -1.0476923076923077,
+      "factor_min": -1.25,
+      "factor_quantile": 1,
+      "factor_std": 0.14601106385897886
+    },
+    {
+      "count": 14,
+      "count_percent": 0.34146341463414637,
+      "factor_max": 0.35,
+      "factor_mean": 0.10571428571428572,
+      "factor_min": -0.05000000000000002,
+      "factor_quantile": 2,
+      "factor_std": 0.13007183138051573
+    },
+    {
+      "count": 14,
+      "count_percent": 0.34146341463414637,
+      "factor_max": 1.4800000000000002,
+      "factor_mean": 1.2721428571428572,
+      "factor_min": 1.11,
+      "factor_quantile": 3,
+      "factor_std": 0.10363980312220197
+    }
+  ]
+}

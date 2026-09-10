@@ -1,0 +1,32 @@
+[
+  {
+    "metric": "annualized_alpha",
+    "period": "1D",
+    "value": -0.5269898863897825
+  },
+  {
+    "metric": "beta",
+    "period": "1D",
+    "value": 2.3836206896551717
+  },
+  {
+    "metric": "annualized_alpha",
+    "period": "5D",
+    "value": -0.11523398875688529
+  },
+  {
+    "metric": "beta",
+    "period": "5D",
+    "value": 1.2744714173844935
+  },
+  {
+    "metric": "annualized_alpha",
+    "period": "10D",
+    "value": -0.24571483908488734
+  },
+  {
+    "metric": "beta",
+    "period": "10D",
+    "value": 1.87857128734405
+  }
+]

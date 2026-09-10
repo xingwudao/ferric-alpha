@@ -1,0 +1,8 @@
+{
+  "render_plan_contract": "ferric-alpha.render-plan/v1",
+  "report_cases_sha256": "281fccfd6ab701972a3a8e078dff71b945f840f3ef5f5e843ece7b0ecddee498",
+  "small_svg_sha256": "38227fe7a40f01220179d16ee1dcd987fe1faf9681e40646f063bee642e0df0f",
+  "small_html_sha256": "86d689c1382a14934c230aad3b268f1656885b7cecff563d8286875c14ce7728",
+  "small_png_sha256": "7012cf0b10b561898d8ea6169b907b12bc6c68ab44317c2b720e3495f5c72c57",
+  "roles": 5
+}

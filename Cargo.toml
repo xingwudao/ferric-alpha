@@ -1,0 +1,43 @@
+[workspace]
+members = [
+  "crates/ferric-alpha",
+  "crates/ferric-alpha-py",
+  "crates/ferric-alpha-render",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.91"
+license = "0BSD"
+repository = "https://github.com/ferric-alpha/ferric-alpha"
+
+[workspace.dependencies]
+approx = "0.5"
+chrono = { version = "0.4", default-features = false, features = ["std"] }
+chrono-tz = "0.10"
+criterion = "0.7"
+polars = { version = "=0.54.4", default-features = false, features = [
+  "dtype-datetime",
+  "lazy",
+  "temporal",
+] }
+plotters = { version = "0.3.7", default-features = false, features = [
+  "ab_glyph",
+  "area_series",
+  "bitmap_backend",
+  "histogram",
+  "line_series",
+  "point_series",
+  "svg_backend",
+] }
+png = "0.18.1"
+pyo3 = "=0.28.2"
+pyo3-polars = "=0.27.0"
+proptest = "1"
+quick-xml = "0.39.4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+statrs = "0.19.1"
+thiserror = "2"

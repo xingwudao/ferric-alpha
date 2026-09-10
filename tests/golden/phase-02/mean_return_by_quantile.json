@@ -1,0 +1,582 @@
+{
+  "mean_return": [
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 1,
+      "mean_return": -0.0108,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 1,
+      "mean_return": -0.027200000000000002,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 1,
+      "mean_return": -0.045,
+      "period": "10D"
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 2,
+      "mean_return": -0.0048000000000000004,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 2,
+      "mean_return": -0.012199999999999999,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 2,
+      "mean_return": -0.025,
+      "period": "10D"
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 3,
+      "mean_return": -0.0008,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 3,
+      "mean_return": -0.00019999999999999922,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 3,
+      "mean_return": 0.0,
+      "period": "10D"
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 4,
+      "mean_return": 0.0052,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 4,
+      "mean_return": 0.011800000000000001,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 4,
+      "mean_return": 0.024999999999999998,
+      "period": "10D"
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 5,
+      "mean_return": 0.0112,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 5,
+      "mean_return": 0.0278,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 5,
+      "mean_return": 0.045000000000000005,
+      "period": "10D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 1,
+      "mean_return": 0.0124,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 1,
+      "mean_return": 0.0292,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 1,
+      "mean_return": 0.053399999999999996,
+      "period": "10D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 2,
+      "mean_return": 0.0064,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 2,
+      "mean_return": 0.0142,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 2,
+      "mean_return": 0.029399999999999996,
+      "period": "10D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 3,
+      "mean_return": 0.0004000000000000005,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 3,
+      "mean_return": 0.00019999999999999987,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 3,
+      "mean_return": 0.002399999999999997,
+      "period": "10D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 4,
+      "mean_return": -0.0066,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 4,
+      "mean_return": -0.0158,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 4,
+      "mean_return": -0.0316,
+      "period": "10D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 5,
+      "mean_return": -0.0126,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 5,
+      "mean_return": -0.0278,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 5,
+      "mean_return": -0.0536,
+      "period": "10D"
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 1,
+      "mean_return": -4.336808689942018e-19,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 1,
+      "mean_return": 0.0,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 1,
+      "mean_return": 0.0,
+      "period": "10D"
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 3,
+      "mean_return": -4.336808689942018e-19,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 3,
+      "mean_return": 0.0,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 3,
+      "mean_return": 0.0,
+      "period": "10D"
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 5,
+      "mean_return": -4.336808689942018e-19,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 5,
+      "mean_return": 0.0,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 5,
+      "mean_return": 0.0,
+      "period": "10D"
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 1,
+      "mean_return": -0.0112,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 1,
+      "mean_return": -0.027999999999999997,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 1,
+      "mean_return": -0.0472,
+      "period": "10D"
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 3,
+      "mean_return": -0.0012000000000000001,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 3,
+      "mean_return": -0.003999999999999998,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 3,
+      "mean_return": -0.007199999999999998,
+      "period": "10D"
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 5,
+      "mean_return": 0.0068000000000000005,
+      "period": "1D"
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 5,
+      "mean_return": 0.018000000000000002,
+      "period": "5D"
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 5,
+      "mean_return": 0.0308,
+      "period": "10D"
+    }
+  ],
+  "std_error": [
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 1,
+      "period": "1D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 1,
+      "period": "5D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 1,
+      "period": "10D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 2,
+      "period": "1D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 2,
+      "period": "5D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 2,
+      "period": "10D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 3,
+      "period": "1D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 3,
+      "period": "5D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 3,
+      "period": "10D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 4,
+      "period": "1D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 4,
+      "period": "5D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 4,
+      "period": "10D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 5,
+      "period": "1D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 5,
+      "period": "5D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 5,
+      "period": "10D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 1,
+      "period": "1D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 1,
+      "period": "5D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 1,
+      "period": "10D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 2,
+      "period": "1D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 2,
+      "period": "5D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 2,
+      "period": "10D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 3,
+      "period": "1D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 3,
+      "period": "5D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 3,
+      "period": "10D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 4,
+      "period": "1D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 4,
+      "period": "5D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 4,
+      "period": "10D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 5,
+      "period": "1D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 5,
+      "period": "5D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 5,
+      "period": "10D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 1,
+      "period": "1D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 1,
+      "period": "5D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 1,
+      "period": "10D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 3,
+      "period": "1D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 3,
+      "period": "5D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 3,
+      "period": "10D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 5,
+      "period": "1D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 5,
+      "period": "5D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 5,
+      "period": "10D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 1,
+      "period": "1D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 1,
+      "period": "5D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 1,
+      "period": "10D",
+      "std_error": null
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 3,
+      "period": "1D",
+      "std_error": 0.0
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 3,
+      "period": "5D",
+      "std_error": 0.0
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 3,
+      "period": "10D",
+      "std_error": 0.0
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 5,
+      "period": "1D",
+      "std_error": 0.0
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 5,
+      "period": "5D",
+      "std_error": 0.0
+    },
+    {
+      "date": "2024-01-06",
+      "factor_quantile": 5,
+      "period": "10D",
+      "std_error": 0.0
+    }
+  ]
+}

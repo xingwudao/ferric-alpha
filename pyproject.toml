@@ -1,0 +1,27 @@
+[build-system]
+requires = ["maturin>=1.15,<2"]
+build-backend = "maturin"
+
+[project]
+name = "ferric-alpha"
+version = "0.1.0"
+description = "High-performance factor analysis built with Rust and Polars"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "0BSD"
+dependencies = ["polars>=1.42,<1.43"]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Rust",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.8,<3.11"]
+notebook = ["ipython>=8,<10"]
+
+[tool.maturin]
+manifest-path = "crates/ferric-alpha-py/Cargo.toml"
+python-source = "python"
+module-name = "ferric_alpha._ferric_alpha"
+features = ["extension-module"]

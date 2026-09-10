@@ -1,0 +1,33 @@
+[package]
+name = "ferric-alpha-render"
+description = "Native rendering for Ferric Alpha tear-sheet reports"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[lib]
+name = "ferric_alpha_render"
+
+[dependencies]
+chrono.workspace = true
+chrono-tz.workspace = true
+ferric-alpha = { version = "0.1.0", path = "../ferric-alpha" }
+plotters.workspace = true
+png.workspace = true
+quick-xml.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+approx.workspace = true
+criterion.workspace = true
+roxmltree = "0.20"
+sha2 = "0.10"
+tempfile = "3"
+
+[[bench]]
+name = "phase_05"
+harness = false

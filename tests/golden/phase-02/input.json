@@ -1,0 +1,199 @@
+{
+  "description": "Ferric Alpha Phase 02 synthetic factor data for Alphalens oracle generation.",
+  "date_timezone": "UTC",
+  "columns": {
+    "date": "ISO-8601 date",
+    "asset": "string",
+    "group": "string",
+    "factor": "float",
+    "factor_quantile": "integer",
+    "forward_return_1D": "float or null",
+    "forward_return_5D": "float or null",
+    "forward_return_10D": "float or null"
+  },
+  "rows": [
+    {
+      "date": "2024-01-02",
+      "asset": "ALFA",
+      "group": "growth",
+      "factor": -2.0,
+      "factor_quantile": 1,
+      "forward_return_1D": -0.010,
+      "forward_return_5D": -0.025,
+      "forward_return_10D": -0.040
+    },
+    {
+      "date": "2024-01-02",
+      "asset": "BRAVO",
+      "group": "growth",
+      "factor": -1.0,
+      "factor_quantile": 2,
+      "forward_return_1D": -0.004,
+      "forward_return_5D": -0.010,
+      "forward_return_10D": -0.020
+    },
+    {
+      "date": "2024-01-02",
+      "asset": "COBALT",
+      "group": "value",
+      "factor": 0.0,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.000,
+      "forward_return_5D": 0.002,
+      "forward_return_10D": 0.005
+    },
+    {
+      "date": "2024-01-02",
+      "asset": "DELTA",
+      "group": "value",
+      "factor": 1.0,
+      "factor_quantile": 4,
+      "forward_return_1D": 0.006,
+      "forward_return_5D": 0.014,
+      "forward_return_10D": 0.030
+    },
+    {
+      "date": "2024-01-02",
+      "asset": "EMBER",
+      "group": "value",
+      "factor": 2.0,
+      "factor_quantile": 5,
+      "forward_return_1D": 0.012,
+      "forward_return_5D": 0.030,
+      "forward_return_10D": 0.050
+    },
+    {
+      "date": "2024-01-03",
+      "asset": "ALFA",
+      "group": "growth",
+      "factor": 2.0,
+      "factor_quantile": 5,
+      "forward_return_1D": -0.012,
+      "forward_return_5D": -0.026,
+      "forward_return_10D": -0.052
+    },
+    {
+      "date": "2024-01-03",
+      "asset": "BRAVO",
+      "group": "growth",
+      "factor": 1.0,
+      "factor_quantile": 4,
+      "forward_return_1D": -0.006,
+      "forward_return_5D": -0.014,
+      "forward_return_10D": -0.030
+    },
+    {
+      "date": "2024-01-03",
+      "asset": "COBALT",
+      "group": "value",
+      "factor": 0.0,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.001,
+      "forward_return_5D": 0.002,
+      "forward_return_10D": 0.004
+    },
+    {
+      "date": "2024-01-03",
+      "asset": "DELTA",
+      "group": "value",
+      "factor": -1.0,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.007,
+      "forward_return_5D": 0.016,
+      "forward_return_10D": 0.031
+    },
+    {
+      "date": "2024-01-03",
+      "asset": "EMBER",
+      "group": "value",
+      "factor": -2.0,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.013,
+      "forward_return_5D": 0.031,
+      "forward_return_10D": 0.055
+    },
+    {
+      "date": "2024-01-04",
+      "asset": "ALFA",
+      "group": "growth",
+      "factor": -1.0,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.003,
+      "forward_return_5D": 0.010,
+      "forward_return_10D": 0.018
+    },
+    {
+      "date": "2024-01-04",
+      "asset": "BRAVO",
+      "group": "growth",
+      "factor": 0.0,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.003,
+      "forward_return_5D": 0.010,
+      "forward_return_10D": 0.018
+    },
+    {
+      "date": "2024-01-04",
+      "asset": "COBALT",
+      "group": "value",
+      "factor": 1.0,
+      "factor_quantile": 5,
+      "forward_return_1D": 0.003,
+      "forward_return_5D": 0.010,
+      "forward_return_10D": 0.018
+    },
+    {
+      "date": "2024-01-06",
+      "asset": "ALFA",
+      "group": "growth",
+      "factor": -2.0,
+      "factor_quantile": 1,
+      "forward_return_1D": -0.008,
+      "forward_return_5D": -0.020,
+      "forward_return_10D": -0.034
+    },
+    {
+      "date": "2024-01-06",
+      "asset": "BRAVO",
+      "group": "growth",
+      "factor": 0.0,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.002,
+      "forward_return_5D": 0.004,
+      "forward_return_10D": 0.006
+    },
+    {
+      "date": "2024-01-06",
+      "asset": "COBALT",
+      "group": "value",
+      "factor": 0.0,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.002,
+      "forward_return_5D": 0.004,
+      "forward_return_10D": 0.006
+    },
+    {
+      "date": "2024-01-06",
+      "asset": "DELTA",
+      "group": "value",
+      "factor": 2.0,
+      "factor_quantile": 5,
+      "forward_return_1D": 0.010,
+      "forward_return_5D": 0.026,
+      "forward_return_10D": 0.044
+    },
+    {
+      "date": "2024-01-06",
+      "asset": "EMBER",
+      "group": "value",
+      "factor": 2.0,
+      "factor_quantile": 5,
+      "forward_return_1D": 0.010,
+      "forward_return_5D": 0.026,
+      "forward_return_10D": 0.044
+    }
+  ],
+  "periods": ["1D", "5D", "10D"],
+  "quantiles": [1, 2, 3, 4, 5],
+  "groups": ["growth", "value"]
+}

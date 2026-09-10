@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2024-01-02",
+    "joint_std_error": null,
+    "mean_return_difference": 0.022,
+    "period": "1D"
+  },
+  {
+    "date": "2024-01-02",
+    "joint_std_error": null,
+    "mean_return_difference": 0.055,
+    "period": "5D"
+  },
+  {
+    "date": "2024-01-02",
+    "joint_std_error": null,
+    "mean_return_difference": 0.09,
+    "period": "10D"
+  },
+  {
+    "date": "2024-01-03",
+    "joint_std_error": null,
+    "mean_return_difference": -0.025,
+    "period": "1D"
+  },
+  {
+    "date": "2024-01-03",
+    "joint_std_error": null,
+    "mean_return_difference": -0.056999999999999995,
+    "period": "5D"
+  },
+  {
+    "date": "2024-01-03",
+    "joint_std_error": null,
+    "mean_return_difference": -0.107,
+    "period": "10D"
+  },
+  {
+    "date": "2024-01-04",
+    "joint_std_error": null,
+    "mean_return_difference": 0.0,
+    "period": "1D"
+  },
+  {
+    "date": "2024-01-04",
+    "joint_std_error": null,
+    "mean_return_difference": 0.0,
+    "period": "5D"
+  },
+  {
+    "date": "2024-01-04",
+    "joint_std_error": null,
+    "mean_return_difference": 0.0,
+    "period": "10D"
+  },
+  {
+    "date": "2024-01-06",
+    "joint_std_error": null,
+    "mean_return_difference": 0.018000000000000002,
+    "period": "1D"
+  },
+  {
+    "date": "2024-01-06",
+    "joint_std_error": null,
+    "mean_return_difference": 0.046,
+    "period": "5D"
+  },
+  {
+    "date": "2024-01-06",
+    "joint_std_error": null,
+    "mean_return_difference": 0.078,
+    "period": "10D"
+  }
+]

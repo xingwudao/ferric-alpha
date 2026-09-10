@@ -1,0 +1,18 @@
+[
+  {
+    "autocorrelation": null,
+    "date": "2024-01-02"
+  },
+  {
+    "autocorrelation": -0.316227766016838,
+    "date": "2024-01-03"
+  },
+  {
+    "autocorrelation": 0.31622776601683794,
+    "date": "2024-01-04"
+  },
+  {
+    "autocorrelation": 0.0,
+    "date": "2024-01-05"
+  }
+]

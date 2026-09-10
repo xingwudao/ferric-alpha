@@ -1,0 +1,23 @@
+[package]
+name = "ferric-alpha-py"
+description = "Python bindings for Ferric Alpha"
+publish = false
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[lib]
+name = "_ferric_alpha"
+crate-type = ["cdylib"]
+
+[features]
+extension-module = ["dep:polars", "dep:pyo3", "dep:pyo3-polars", "pyo3/extension-module"]
+
+[dependencies]
+ferric-alpha = { version = "0.1.0", path = "../ferric-alpha" }
+ferric-alpha-render = { version = "0.1.0", path = "../ferric-alpha-render" }
+polars = { workspace = true, optional = true }
+pyo3 = { workspace = true, optional = true }
+pyo3-polars = { workspace = true, optional = true }

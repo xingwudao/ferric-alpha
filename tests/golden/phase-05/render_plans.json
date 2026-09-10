@@ -1,0 +1,1171 @@
+[
+  {
+    "name": "summary",
+    "plan": {
+      "contract_version": "ferric-alpha.render-plan/v1",
+      "report_kind": "summary",
+      "title": "Summary Tear Sheet",
+      "width": 1200,
+      "height": 2214,
+      "theme": "light",
+      "panels": [
+        {
+          "id": "summary.quantile-statistics",
+          "title": "Quantile Statistics",
+          "row": 0,
+          "column": 0,
+          "column_span": 6,
+          "height": 156,
+          "table_ids": [
+            "quantile.statistics"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        },
+        {
+          "id": "summary.returns-summary",
+          "title": "Returns Summary",
+          "row": 1,
+          "column": 0,
+          "column_span": 6,
+          "height": 976,
+          "table_ids": [
+            "returns.summary",
+            "returns.mean_by_quantile"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        },
+        {
+          "id": "summary.quantile-returns",
+          "title": "Mean Return by Quantile",
+          "row": 2,
+          "column": 0,
+          "column_span": 12,
+          "height": 320,
+          "table_ids": [
+            "returns.mean_by_quantile"
+          ],
+          "kind": {
+            "type": "quantile_returns_bar",
+            "by_group": false
+          }
+        },
+        {
+          "id": "summary.information-summary",
+          "title": "Information Summary",
+          "row": 3,
+          "column": 0,
+          "column_span": 6,
+          "height": 156,
+          "table_ids": [
+            "information.summary"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        },
+        {
+          "id": "summary.turnover-summary",
+          "title": "Turnover Summary",
+          "row": 4,
+          "column": 0,
+          "column_span": 6,
+          "height": 406,
+          "table_ids": [
+            "turnover.mean_by_quantile",
+            "turnover.mean_rank_autocorrelation"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "returns",
+    "plan": {
+      "contract_version": "ferric-alpha.render-plan/v1",
+      "report_kind": "returns",
+      "title": "Returns Tear Sheet",
+      "width": 1200,
+      "height": 2840,
+      "theme": "light",
+      "panels": [
+        {
+          "id": "returns.summary",
+          "title": "Returns Summary",
+          "row": 0,
+          "column": 0,
+          "column_span": 12,
+          "height": 976,
+          "table_ids": [
+            "returns.summary",
+            "returns.mean_by_quantile"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        },
+        {
+          "id": "returns.quantile-bar",
+          "title": "Mean Return by Quantile",
+          "row": 1,
+          "column": 0,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "returns.mean_by_quantile"
+          ],
+          "kind": {
+            "type": "quantile_returns_bar",
+            "by_group": false
+          }
+        },
+        {
+          "id": "returns.daily-distribution",
+          "title": "Daily Return Distribution by Quantile",
+          "row": 2,
+          "column": 0,
+          "column_span": 6,
+          "height": 360,
+          "table_ids": [
+            "returns.daily_by_quantile"
+          ],
+          "kind": {
+            "type": "quantile_returns_distribution",
+            "samples": 81
+          }
+        },
+        {
+          "id": "returns.factor-cumulative",
+          "title": "Factor Cumulative Return",
+          "row": 3,
+          "column": 0,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "returns.factor_cumulative_1d"
+          ],
+          "kind": {
+            "type": "cumulative_returns",
+            "by_quantile": false
+          }
+        },
+        {
+          "id": "returns.quantile-cumulative",
+          "title": "Quantile Cumulative Return",
+          "row": 3,
+          "column": 6,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "returns.quantile_cumulative_1d"
+          ],
+          "kind": {
+            "type": "cumulative_returns",
+            "by_quantile": true
+          }
+        },
+        {
+          "id": "returns.mean-spread",
+          "title": "Mean Quantile Return Spread",
+          "row": 4,
+          "column": 0,
+          "column_span": 12,
+          "height": 320,
+          "table_ids": [
+            "returns.daily_spread"
+          ],
+          "kind": {
+            "type": "mean_spread"
+          }
+        },
+        {
+          "id": "returns.group-quantile-bar",
+          "title": "Mean Return by Quantile and Group",
+          "row": 5,
+          "column": 0,
+          "column_span": 12,
+          "height": 320,
+          "table_ids": [
+            "returns.group_mean_by_quantile"
+          ],
+          "kind": {
+            "type": "quantile_returns_bar",
+            "by_group": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "returns_without_group",
+    "plan": {
+      "contract_version": "ferric-alpha.render-plan/v1",
+      "report_kind": "returns",
+      "title": "Returns Tear Sheet",
+      "width": 1200,
+      "height": 2496,
+      "theme": "light",
+      "panels": [
+        {
+          "id": "returns.summary",
+          "title": "Returns Summary",
+          "row": 0,
+          "column": 0,
+          "column_span": 12,
+          "height": 976,
+          "table_ids": [
+            "returns.summary",
+            "returns.mean_by_quantile"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        },
+        {
+          "id": "returns.quantile-bar",
+          "title": "Mean Return by Quantile",
+          "row": 1,
+          "column": 0,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "returns.mean_by_quantile"
+          ],
+          "kind": {
+            "type": "quantile_returns_bar",
+            "by_group": false
+          }
+        },
+        {
+          "id": "returns.daily-distribution",
+          "title": "Daily Return Distribution by Quantile",
+          "row": 2,
+          "column": 0,
+          "column_span": 6,
+          "height": 360,
+          "table_ids": [
+            "returns.daily_by_quantile"
+          ],
+          "kind": {
+            "type": "quantile_returns_distribution",
+            "samples": 81
+          }
+        },
+        {
+          "id": "returns.factor-cumulative",
+          "title": "Factor Cumulative Return",
+          "row": 3,
+          "column": 0,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "returns.factor_cumulative_1d"
+          ],
+          "kind": {
+            "type": "cumulative_returns",
+            "by_quantile": false
+          }
+        },
+        {
+          "id": "returns.quantile-cumulative",
+          "title": "Quantile Cumulative Return",
+          "row": 3,
+          "column": 6,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "returns.quantile_cumulative_1d"
+          ],
+          "kind": {
+            "type": "cumulative_returns",
+            "by_quantile": true
+          }
+        },
+        {
+          "id": "returns.mean-spread",
+          "title": "Mean Quantile Return Spread",
+          "row": 4,
+          "column": 0,
+          "column_span": 12,
+          "height": 320,
+          "table_ids": [
+            "returns.daily_spread"
+          ],
+          "kind": {
+            "type": "mean_spread"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "returns_without_1d_cumulative",
+    "plan": {
+      "contract_version": "ferric-alpha.render-plan/v1",
+      "report_kind": "returns",
+      "title": "Returns Tear Sheet",
+      "width": 1200,
+      "height": 1986,
+      "theme": "light",
+      "panels": [
+        {
+          "id": "returns.summary",
+          "title": "Returns Summary",
+          "row": 0,
+          "column": 0,
+          "column_span": 12,
+          "height": 466,
+          "table_ids": [
+            "returns.summary",
+            "returns.mean_by_quantile"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        },
+        {
+          "id": "returns.quantile-bar",
+          "title": "Mean Return by Quantile",
+          "row": 1,
+          "column": 0,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "returns.mean_by_quantile"
+          ],
+          "kind": {
+            "type": "quantile_returns_bar",
+            "by_group": false
+          }
+        },
+        {
+          "id": "returns.daily-distribution",
+          "title": "Daily Return Distribution by Quantile",
+          "row": 2,
+          "column": 0,
+          "column_span": 6,
+          "height": 360,
+          "table_ids": [
+            "returns.daily_by_quantile"
+          ],
+          "kind": {
+            "type": "quantile_returns_distribution",
+            "samples": 96
+          }
+        },
+        {
+          "id": "returns.mean-spread",
+          "title": "Mean Quantile Return Spread",
+          "row": 3,
+          "column": 0,
+          "column_span": 12,
+          "height": 320,
+          "table_ids": [
+            "returns.daily_spread"
+          ],
+          "kind": {
+            "type": "mean_spread"
+          }
+        },
+        {
+          "id": "returns.group-quantile-bar",
+          "title": "Mean Return by Quantile and Group",
+          "row": 4,
+          "column": 0,
+          "column_span": 12,
+          "height": 320,
+          "table_ids": [
+            "returns.group_mean_by_quantile"
+          ],
+          "kind": {
+            "type": "quantile_returns_bar",
+            "by_group": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "information",
+    "plan": {
+      "contract_version": "ferric-alpha.render-plan/v1",
+      "report_kind": "information",
+      "title": "Information Tear Sheet",
+      "width": 1200,
+      "height": 1676,
+      "theme": "light",
+      "panels": [
+        {
+          "id": "information.summary",
+          "title": "Information Summary",
+          "row": 0,
+          "column": 0,
+          "column_span": 12,
+          "height": 156,
+          "table_ids": [
+            "information.summary"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        },
+        {
+          "id": "information.ic-time-series",
+          "title": "Information Coefficient",
+          "row": 1,
+          "column": 0,
+          "column_span": 12,
+          "height": 320,
+          "table_ids": [
+            "information.ic_by_date",
+            "information.ic_rolling"
+          ],
+          "kind": {
+            "type": "ic_time_series"
+          }
+        },
+        {
+          "id": "information.ic-histogram",
+          "title": "IC Histogram",
+          "row": 2,
+          "column": 0,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "information.ic_by_date"
+          ],
+          "kind": {
+            "type": "ic_histogram",
+            "bins": 20
+          }
+        },
+        {
+          "id": "information.ic-qq",
+          "title": "IC Normal Q-Q",
+          "row": 2,
+          "column": 6,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "information.qq_normal"
+          ],
+          "kind": {
+            "type": "ic_qq"
+          }
+        },
+        {
+          "id": "information.ic-monthly",
+          "title": "Monthly Mean IC",
+          "row": 3,
+          "column": 0,
+          "column_span": 12,
+          "height": 360,
+          "table_ids": [
+            "information.ic_monthly"
+          ],
+          "kind": {
+            "type": "ic_monthly_heatmap"
+          }
+        },
+        {
+          "id": "information.ic-by-group",
+          "title": "Mean IC by Group",
+          "row": 4,
+          "column": 0,
+          "column_span": 12,
+          "height": 320,
+          "table_ids": [
+            "information.ic_by_group"
+          ],
+          "kind": {
+            "type": "ic_by_group"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "information_without_group",
+    "plan": {
+      "contract_version": "ferric-alpha.render-plan/v1",
+      "report_kind": "information",
+      "title": "Information Tear Sheet",
+      "width": 1200,
+      "height": 1332,
+      "theme": "light",
+      "panels": [
+        {
+          "id": "information.summary",
+          "title": "Information Summary",
+          "row": 0,
+          "column": 0,
+          "column_span": 12,
+          "height": 156,
+          "table_ids": [
+            "information.summary"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        },
+        {
+          "id": "information.ic-time-series",
+          "title": "Information Coefficient",
+          "row": 1,
+          "column": 0,
+          "column_span": 12,
+          "height": 320,
+          "table_ids": [
+            "information.ic_by_date",
+            "information.ic_rolling"
+          ],
+          "kind": {
+            "type": "ic_time_series"
+          }
+        },
+        {
+          "id": "information.ic-histogram",
+          "title": "IC Histogram",
+          "row": 2,
+          "column": 0,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "information.ic_by_date"
+          ],
+          "kind": {
+            "type": "ic_histogram",
+            "bins": 20
+          }
+        },
+        {
+          "id": "information.ic-qq",
+          "title": "IC Normal Q-Q",
+          "row": 2,
+          "column": 6,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "information.qq_normal"
+          ],
+          "kind": {
+            "type": "ic_qq"
+          }
+        },
+        {
+          "id": "information.ic-monthly",
+          "title": "Monthly Mean IC",
+          "row": 3,
+          "column": 0,
+          "column_span": 12,
+          "height": 360,
+          "table_ids": [
+            "information.ic_monthly"
+          ],
+          "kind": {
+            "type": "ic_monthly_heatmap"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "turnover",
+    "plan": {
+      "contract_version": "ferric-alpha.render-plan/v1",
+      "report_kind": "turnover",
+      "title": "Turnover Tear Sheet",
+      "width": 1200,
+      "height": 1198,
+      "theme": "light",
+      "panels": [
+        {
+          "id": "turnover.summary",
+          "title": "Turnover Summary",
+          "row": 0,
+          "column": 0,
+          "column_span": 12,
+          "height": 406,
+          "table_ids": [
+            "turnover.mean_by_quantile",
+            "turnover.mean_rank_autocorrelation"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        },
+        {
+          "id": "turnover.quantile-series.0",
+          "title": "Quantile Turnover 1D",
+          "row": 1,
+          "column": 0,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "turnover.quantile_series"
+          ],
+          "kind": {
+            "type": "quantile_turnover",
+            "period": "1D"
+          }
+        },
+        {
+          "id": "turnover.rank-autocorrelation.0",
+          "title": "Rank Autocorrelation 1D",
+          "row": 1,
+          "column": 6,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "turnover.rank_autocorrelation_series"
+          ],
+          "kind": {
+            "type": "rank_autocorrelation",
+            "period": "1D"
+          }
+        },
+        {
+          "id": "turnover.quantile-series.1",
+          "title": "Quantile Turnover 3D",
+          "row": 2,
+          "column": 0,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "turnover.quantile_series"
+          ],
+          "kind": {
+            "type": "quantile_turnover",
+            "period": "3D"
+          }
+        },
+        {
+          "id": "turnover.rank-autocorrelation.1",
+          "title": "Rank Autocorrelation 3D",
+          "row": 2,
+          "column": 6,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "turnover.rank_autocorrelation_series"
+          ],
+          "kind": {
+            "type": "rank_autocorrelation",
+            "period": "3D"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "full",
+    "plan": {
+      "contract_version": "ferric-alpha.render-plan/v1",
+      "report_kind": "full",
+      "title": "Full Tear Sheet",
+      "width": 1200,
+      "height": 5734,
+      "theme": "light",
+      "panels": [
+        {
+          "id": "full.quantile-statistics",
+          "title": "Quantile Statistics",
+          "row": 0,
+          "column": 0,
+          "column_span": 6,
+          "height": 156,
+          "table_ids": [
+            "quantile.statistics"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        },
+        {
+          "id": "full.returns-summary",
+          "title": "Returns Summary",
+          "row": 1,
+          "column": 0,
+          "column_span": 12,
+          "height": 976,
+          "table_ids": [
+            "returns.summary",
+            "returns.mean_by_quantile"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        },
+        {
+          "id": "full.quantile-bar",
+          "title": "Mean Return by Quantile",
+          "row": 2,
+          "column": 0,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "returns.mean_by_quantile"
+          ],
+          "kind": {
+            "type": "quantile_returns_bar",
+            "by_group": false
+          }
+        },
+        {
+          "id": "full.daily-distribution",
+          "title": "Daily Return Distribution by Quantile",
+          "row": 3,
+          "column": 0,
+          "column_span": 6,
+          "height": 360,
+          "table_ids": [
+            "returns.daily_by_quantile"
+          ],
+          "kind": {
+            "type": "quantile_returns_distribution",
+            "samples": 81
+          }
+        },
+        {
+          "id": "full.factor-cumulative",
+          "title": "Factor Cumulative Return",
+          "row": 4,
+          "column": 0,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "returns.factor_cumulative_1d"
+          ],
+          "kind": {
+            "type": "cumulative_returns",
+            "by_quantile": false
+          }
+        },
+        {
+          "id": "full.quantile-cumulative",
+          "title": "Quantile Cumulative Return",
+          "row": 4,
+          "column": 6,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "returns.quantile_cumulative_1d"
+          ],
+          "kind": {
+            "type": "cumulative_returns",
+            "by_quantile": true
+          }
+        },
+        {
+          "id": "full.mean-spread",
+          "title": "Mean Quantile Return Spread",
+          "row": 5,
+          "column": 0,
+          "column_span": 12,
+          "height": 320,
+          "table_ids": [
+            "returns.daily_spread"
+          ],
+          "kind": {
+            "type": "mean_spread"
+          }
+        },
+        {
+          "id": "full.group-quantile-bar",
+          "title": "Mean Return by Quantile and Group",
+          "row": 6,
+          "column": 0,
+          "column_span": 12,
+          "height": 320,
+          "table_ids": [
+            "returns.group_mean_by_quantile"
+          ],
+          "kind": {
+            "type": "quantile_returns_bar",
+            "by_group": true
+          }
+        },
+        {
+          "id": "full.information-summary",
+          "title": "Information Summary",
+          "row": 7,
+          "column": 0,
+          "column_span": 12,
+          "height": 156,
+          "table_ids": [
+            "information.summary"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        },
+        {
+          "id": "full.ic-time-series",
+          "title": "Information Coefficient",
+          "row": 8,
+          "column": 0,
+          "column_span": 12,
+          "height": 320,
+          "table_ids": [
+            "information.ic_by_date",
+            "information.ic_rolling"
+          ],
+          "kind": {
+            "type": "ic_time_series"
+          }
+        },
+        {
+          "id": "full.ic-histogram",
+          "title": "IC Histogram",
+          "row": 9,
+          "column": 0,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "information.ic_by_date"
+          ],
+          "kind": {
+            "type": "ic_histogram",
+            "bins": 20
+          }
+        },
+        {
+          "id": "full.ic-qq",
+          "title": "IC Normal Q-Q",
+          "row": 9,
+          "column": 6,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "information.qq_normal"
+          ],
+          "kind": {
+            "type": "ic_qq"
+          }
+        },
+        {
+          "id": "full.ic-monthly",
+          "title": "Monthly Mean IC",
+          "row": 10,
+          "column": 0,
+          "column_span": 12,
+          "height": 360,
+          "table_ids": [
+            "information.ic_monthly"
+          ],
+          "kind": {
+            "type": "ic_monthly_heatmap"
+          }
+        },
+        {
+          "id": "full.ic-by-group",
+          "title": "Mean IC by Group",
+          "row": 11,
+          "column": 0,
+          "column_span": 12,
+          "height": 320,
+          "table_ids": [
+            "information.ic_by_group"
+          ],
+          "kind": {
+            "type": "ic_by_group"
+          }
+        },
+        {
+          "id": "full.turnover-summary",
+          "title": "Turnover Summary",
+          "row": 12,
+          "column": 0,
+          "column_span": 12,
+          "height": 406,
+          "table_ids": [
+            "turnover.mean_by_quantile",
+            "turnover.mean_rank_autocorrelation"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        },
+        {
+          "id": "full.quantile-series.0",
+          "title": "Quantile Turnover 1D",
+          "row": 13,
+          "column": 0,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "turnover.quantile_series"
+          ],
+          "kind": {
+            "type": "quantile_turnover",
+            "period": "1D"
+          }
+        },
+        {
+          "id": "full.rank-autocorrelation.0",
+          "title": "Rank Autocorrelation 1D",
+          "row": 13,
+          "column": 6,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "turnover.rank_autocorrelation_series"
+          ],
+          "kind": {
+            "type": "rank_autocorrelation",
+            "period": "1D"
+          }
+        },
+        {
+          "id": "full.quantile-series.1",
+          "title": "Quantile Turnover 3D",
+          "row": 14,
+          "column": 0,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "turnover.quantile_series"
+          ],
+          "kind": {
+            "type": "quantile_turnover",
+            "period": "3D"
+          }
+        },
+        {
+          "id": "full.rank-autocorrelation.1",
+          "title": "Rank Autocorrelation 3D",
+          "row": 14,
+          "column": 6,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "turnover.rank_autocorrelation_series"
+          ],
+          "kind": {
+            "type": "rank_autocorrelation",
+            "period": "3D"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "event_returns",
+    "plan": {
+      "contract_version": "ferric-alpha.render-plan/v1",
+      "report_kind": "event_returns",
+      "title": "Event Returns Tear Sheet",
+      "width": 1200,
+      "height": 694,
+      "theme": "light",
+      "panels": [
+        {
+          "id": "events.average-cumulative",
+          "title": "Average Cumulative Return",
+          "row": 0,
+          "column": 0,
+          "column_span": 12,
+          "height": 320,
+          "table_ids": [
+            "events.average_cumulative_returns"
+          ],
+          "kind": {
+            "type": "event_average_cumulative",
+            "by_group": false
+          }
+        },
+        {
+          "id": "events.coverage",
+          "title": "Event Coverage",
+          "row": 1,
+          "column": 0,
+          "column_span": 12,
+          "height": 246,
+          "table_ids": [
+            "events.coverage"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "event_study",
+    "plan": {
+      "contract_version": "ferric-alpha.render-plan/v1",
+      "report_kind": "event_study",
+      "title": "Event Study Tear Sheet",
+      "width": 1200,
+      "height": 1986,
+      "theme": "light",
+      "panels": [
+        {
+          "id": "events.quantile-statistics",
+          "title": "Quantile Statistics",
+          "row": 0,
+          "column": 0,
+          "column_span": 6,
+          "height": 156,
+          "table_ids": [
+            "quantile.statistics"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        },
+        {
+          "id": "events.distribution",
+          "title": "Events Distribution",
+          "row": 1,
+          "column": 0,
+          "column_span": 6,
+          "height": 360,
+          "table_ids": [
+            "events.distribution"
+          ],
+          "kind": {
+            "type": "event_distribution"
+          }
+        },
+        {
+          "id": "events.average-cumulative",
+          "title": "Average Cumulative Return",
+          "row": 2,
+          "column": 0,
+          "column_span": 12,
+          "height": 320,
+          "table_ids": [
+            "events.average_cumulative_returns"
+          ],
+          "kind": {
+            "type": "event_average_cumulative",
+            "by_group": false
+          }
+        },
+        {
+          "id": "events.coverage",
+          "title": "Event Coverage",
+          "row": 3,
+          "column": 0,
+          "column_span": 12,
+          "height": 246,
+          "table_ids": [
+            "events.coverage"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        },
+        {
+          "id": "events.quantile-bar",
+          "title": "Mean Return by Quantile",
+          "row": 4,
+          "column": 0,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "returns.mean_by_quantile"
+          ],
+          "kind": {
+            "type": "quantile_returns_bar",
+            "by_group": false
+          }
+        },
+        {
+          "id": "events.daily-distribution",
+          "title": "Daily Return Distribution by Quantile",
+          "row": 5,
+          "column": 0,
+          "column_span": 6,
+          "height": 360,
+          "table_ids": [
+            "returns.daily_by_quantile"
+          ],
+          "kind": {
+            "type": "quantile_returns_distribution",
+            "samples": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "event_study_without_event_returns",
+    "plan": {
+      "contract_version": "ferric-alpha.render-plan/v1",
+      "report_kind": "event_study",
+      "title": "Event Study Tear Sheet",
+      "width": 1200,
+      "height": 1372,
+      "theme": "light",
+      "panels": [
+        {
+          "id": "events.quantile-statistics",
+          "title": "Quantile Statistics",
+          "row": 0,
+          "column": 0,
+          "column_span": 6,
+          "height": 156,
+          "table_ids": [
+            "quantile.statistics"
+          ],
+          "kind": {
+            "type": "table"
+          }
+        },
+        {
+          "id": "events.distribution",
+          "title": "Events Distribution",
+          "row": 1,
+          "column": 0,
+          "column_span": 6,
+          "height": 360,
+          "table_ids": [
+            "events.distribution"
+          ],
+          "kind": {
+            "type": "event_distribution"
+          }
+        },
+        {
+          "id": "events.quantile-bar",
+          "title": "Mean Return by Quantile",
+          "row": 2,
+          "column": 0,
+          "column_span": 6,
+          "height": 320,
+          "table_ids": [
+            "returns.mean_by_quantile"
+          ],
+          "kind": {
+            "type": "quantile_returns_bar",
+            "by_group": false
+          }
+        },
+        {
+          "id": "events.daily-distribution",
+          "title": "Daily Return Distribution by Quantile",
+          "row": 3,
+          "column": 0,
+          "column_span": 6,
+          "height": 360,
+          "table_ids": [
+            "returns.daily_by_quantile"
+          ],
+          "kind": {
+            "type": "quantile_returns_distribution",
+            "samples": 0
+          }
+        }
+      ]
+    }
+  }
+]

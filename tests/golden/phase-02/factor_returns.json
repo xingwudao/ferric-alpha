@@ -1,0 +1,62 @@
+[
+  {
+    "date": "2024-01-02",
+    "factor_return": 0.009,
+    "period": "1D"
+  },
+  {
+    "date": "2024-01-02",
+    "factor_return": 0.02233333333333333,
+    "period": "5D"
+  },
+  {
+    "date": "2024-01-02",
+    "factor_return": 0.03833333333333333,
+    "period": "10D"
+  },
+  {
+    "date": "2024-01-03",
+    "factor_return": -0.010499999999999999,
+    "period": "1D"
+  },
+  {
+    "date": "2024-01-03",
+    "factor_return": -0.024,
+    "period": "5D"
+  },
+  {
+    "date": "2024-01-03",
+    "factor_return": -0.04583333333333333,
+    "period": "10D"
+  },
+  {
+    "date": "2024-01-04",
+    "factor_return": 0.0,
+    "period": "1D"
+  },
+  {
+    "date": "2024-01-04",
+    "factor_return": 0.0,
+    "period": "5D"
+  },
+  {
+    "date": "2024-01-04",
+    "factor_return": 0.0,
+    "period": "10D"
+  },
+  {
+    "date": "2024-01-06",
+    "factor_return": 0.00775,
+    "period": "1D"
+  },
+  {
+    "date": "2024-01-06",
+    "factor_return": 0.019999999999999997,
+    "period": "5D"
+  },
+  {
+    "date": "2024-01-06",
+    "factor_return": 0.033999999999999996,
+    "period": "10D"
+  }
+]

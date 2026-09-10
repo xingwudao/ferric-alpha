@@ -1,0 +1,38 @@
+# Local planning and implementation process records.
+/docs/superpowers/
+/.superpowers/
+
+# Local-only compatibility and oracle workspaces.
+/.compat/
+/.oracle/
+/.alphalens-shadow/
+
+# Rust build output.
+/target/
+/coverage/
+/criterion/
+
+# Python environments and generated files.
+/.venv/
+/.pytest_cache/
+/.ruff_cache/
+/.mypy_cache/
+/.coverage
+/htmlcov/
+/.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.dylib
+/dist/
+/build/
+/*.egg-info/
+/python/*.egg-info/
+/python/ferric_alpha/*.so
+
+# Local editor and OS files.
+.DS_Store
+.idea/
+.vscode/
+*.swp

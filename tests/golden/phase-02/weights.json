@@ -1,0 +1,92 @@
+[
+  {
+    "asset": "ALFA",
+    "date": "2024-01-02",
+    "weight": -0.3333333333333333
+  },
+  {
+    "asset": "BRAVO",
+    "date": "2024-01-02",
+    "weight": -0.16666666666666666
+  },
+  {
+    "asset": "COBALT",
+    "date": "2024-01-02",
+    "weight": 0.0
+  },
+  {
+    "asset": "DELTA",
+    "date": "2024-01-02",
+    "weight": 0.16666666666666666
+  },
+  {
+    "asset": "EMBER",
+    "date": "2024-01-02",
+    "weight": 0.3333333333333333
+  },
+  {
+    "asset": "ALFA",
+    "date": "2024-01-03",
+    "weight": 0.3333333333333333
+  },
+  {
+    "asset": "BRAVO",
+    "date": "2024-01-03",
+    "weight": 0.16666666666666666
+  },
+  {
+    "asset": "COBALT",
+    "date": "2024-01-03",
+    "weight": 0.0
+  },
+  {
+    "asset": "DELTA",
+    "date": "2024-01-03",
+    "weight": -0.16666666666666666
+  },
+  {
+    "asset": "EMBER",
+    "date": "2024-01-03",
+    "weight": -0.3333333333333333
+  },
+  {
+    "asset": "ALFA",
+    "date": "2024-01-04",
+    "weight": -0.5
+  },
+  {
+    "asset": "BRAVO",
+    "date": "2024-01-04",
+    "weight": 0.0
+  },
+  {
+    "asset": "COBALT",
+    "date": "2024-01-04",
+    "weight": 0.5
+  },
+  {
+    "asset": "ALFA",
+    "date": "2024-01-06",
+    "weight": -0.37499999999999994
+  },
+  {
+    "asset": "BRAVO",
+    "date": "2024-01-06",
+    "weight": -0.0625
+  },
+  {
+    "asset": "COBALT",
+    "date": "2024-01-06",
+    "weight": -0.0625
+  },
+  {
+    "asset": "DELTA",
+    "date": "2024-01-06",
+    "weight": 0.25
+  },
+  {
+    "asset": "EMBER",
+    "date": "2024-01-06",
+    "weight": 0.25
+  }
+]

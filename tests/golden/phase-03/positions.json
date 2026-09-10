@@ -1,0 +1,52 @@
+[
+  {
+    "asset": "A",
+    "date": "2024-01-02",
+    "position": 0.75
+  },
+  {
+    "asset": "B",
+    "date": "2024-01-02",
+    "position": -0.25
+  },
+  {
+    "asset": "A",
+    "date": "2024-01-03",
+    "position": 0.5
+  },
+  {
+    "asset": "B",
+    "date": "2024-01-03",
+    "position": -0.5
+  },
+  {
+    "asset": "A",
+    "date": "2024-01-04",
+    "position": 0.25
+  },
+  {
+    "asset": "B",
+    "date": "2024-01-04",
+    "position": -0.75
+  },
+  {
+    "asset": "A",
+    "date": "2024-01-05",
+    "position": -0.5
+  },
+  {
+    "asset": "B",
+    "date": "2024-01-05",
+    "position": 0.5
+  },
+  {
+    "asset": "A",
+    "date": "2024-01-09",
+    "position": 0.0
+  },
+  {
+    "asset": "B",
+    "date": "2024-01-09",
+    "position": 0.0
+  }
+]

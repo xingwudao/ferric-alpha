@@ -1,0 +1,1974 @@
+{
+  "legacy_events": [
+    {
+      "exception": "TypeError",
+      "message": "unsupported operand type(s) for |: 'type' and 'type'",
+      "scope": "summary"
+    },
+    {
+      "message": "Not prepending group keys to the result index of transform-like apply. In the future, the group keys will be included in the index, regardless of whether the applied function returns a like-indexed object.",
+      "scope": "summary",
+      "warning": "FutureWarning"
+    },
+    {
+      "exception": "TypeError",
+      "message": "unsupported operand type(s) for |: 'type' and 'type'",
+      "scope": "returns"
+    },
+    {
+      "message": "Not prepending group keys to the result index of transform-like apply. In the future, the group keys will be included in the index, regardless of whether the applied function returns a like-indexed object.",
+      "scope": "returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "exception": "TypeError",
+      "message": "unsupported operand type(s) for |: 'type' and 'type'",
+      "scope": "turnover"
+    },
+    {
+      "exception": "TypeError",
+      "message": "unsupported operand type(s) for |: 'type' and 'type'",
+      "scope": "full"
+    },
+    {
+      "message": "Not prepending group keys to the result index of transform-like apply. In the future, the group keys will be included in the index, regardless of whether the applied function returns a like-indexed object.",
+      "scope": "full",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_returns",
+      "warning": "FutureWarning"
+    },
+    {
+      "exception": "TypeError",
+      "message": "unsupported operand type(s) for |: 'type' and 'type'",
+      "scope": "event_study"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Passing a set as an indexer is deprecated and will raise in a future version. Use a list instead.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    },
+    {
+      "message": "Not prepending group keys to the result index of transform-like apply. In the future, the group keys will be included in the index, regardless of whether the applied function returns a like-indexed object.",
+      "scope": "event_study",
+      "warning": "FutureWarning"
+    }
+  ],
+  "plot_roles": [
+    {
+      "args": [
+        {
+          "columns": [
+            "factor",
+            "group",
+            "factor_quantile",
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "date",
+            "asset"
+          ],
+          "records": [
+            {
+              "1D": -0.006,
+              "3D": -0.0137,
+              "5D": -0.0186,
+              "asset": "A",
+              "date": "2024-01-02",
+              "factor": -1.25,
+              "factor_quantile": 1,
+              "group": "technology"
+            },
+            {
+              "1D": -0.0053,
+              "3D": -0.01066,
+              "5D": -0.01643,
+              "asset": "B",
+              "date": "2024-01-02",
+              "factor": -1.25,
+              "factor_quantile": 1,
+              "group": "technology"
+            },
+            {
+              "1D": 0.0014,
+              "3D": 0.00258,
+              "5D": 0.00434,
+              "asset": "C",
+              "date": "2024-01-02",
+              "factor": 0.0,
+              "factor_quantile": 2,
+              "group": "technology"
+            },
+            {
+              "1D": 0.0081,
+              "3D": 0.01882,
+              "5D": 0.02511,
+              "asset": "D",
+              "date": "2024-01-02",
+              "factor": 1.1700000000000002,
+              "factor_quantile": 3,
+              "group": "utilities"
+            },
+            {
+              "1D": 0.0088,
+              "3D": 0.01886,
+              "5D": 0.02728,
+              "asset": "E",
+              "date": "2024-01-02",
+              "factor": 1.2400000000000002,
+              "factor_quantile": 3,
+              "group": "utilities"
+            },
+            {
+              "1D": -0.005,
+              "3D": -0.01,
+              "5D": -0.0163,
+              "asset": "A",
+              "date": "2024-01-03",
+              "factor": -1.2100000000000002,
+              "factor_quantile": 1,
+              "group": "technology"
+            },
+            {
+              "1D": 0.0017,
+              "3D": 0.00324,
+              "5D": 0.00447,
+              "asset": "B",
+              "date": "2024-01-03",
+              "factor": -0.04000000000000001,
+              "factor_quantile": 2,
+              "group": "technology"
+            },
+            {
+              "1D": 0.0024,
+              "3D": 0.00628,
+              "5D": 0.00664,
+              "asset": "C",
+              "date": "2024-01-03",
+              "factor": 0.03,
+              "factor_quantile": 2,
+              "group": "technology"
+            }
+          ],
+          "shape": [
+            42,
+            6
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {},
+      "role": "plot_quantile_statistics_table"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "None"
+          ],
+          "records": [
+            {
+              "1D": 4.350294986734445,
+              "3D": 2.332441659722131,
+              "5D": 1.8169852284117947,
+              "index": "Ann. alpha"
+            },
+            {
+              "1D": -0.08888935904061046,
+              "3D": -0.08282914739914136,
+              "5D": -0.10433030356840968,
+              "index": "beta"
+            }
+          ],
+          "shape": [
+            2,
+            3
+          ],
+          "type": "DataFrame"
+        },
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "factor_quantile"
+          ],
+          "records": [
+            {
+              "1D": -0.032986493723320964,
+              "3D": -0.024418259484823346,
+              "5D": -0.020683888888888835,
+              "factor_quantile": 1
+            },
+            {
+              "1D": -0.0018735942772449832,
+              "3D": -0.0005536423838816695,
+              "5D": -0.0009988888888888825,
+              "factor_quantile": 2
+            },
+            {
+              "1D": 0.03242647779036156,
+              "3D": 0.023563547731158874,
+              "5D": 0.01989166666666664,
+              "factor_quantile": 3
+            }
+          ],
+          "shape": [
+            3,
+            3
+          ],
+          "type": "DataFrame"
+        },
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "date"
+          ],
+          "records": [
+            {
+              "1D": 0.0705070080873319,
+              "3D": 0.05170470931759508,
+              "5D": 0.043709999999999916,
+              "date": "2024-01-02"
+            },
+            {
+              "1D": 0.0705070080873319,
+              "3D": 0.04919960300158588,
+              "5D": 0.043709999999999916,
+              "date": "2024-01-03"
+            },
+            {
+              "1D": 0.06530124507861579,
+              "3D": 0.04660463328016873,
+              "5D": 0.04045499999999991,
+              "date": "2024-01-04"
+            },
+            {
+              "1D": 0.06377225208441983,
+              "3D": 0.049141807701723716,
+              "5D": 0.039369999999999905,
+              "date": "2024-01-05"
+            },
+            {
+              "1D": 0.06029284920461786,
+              "3D": 0.04407419216555786,
+              "5D": 0.0371999999999999,
+              "date": "2024-01-08"
+            },
+            {
+              "1D": 0.05794583051204405,
+              "3D": 0.041396181534986254,
+              "5D": 0.0361149999999999,
+              "date": "2024-01-09"
+            },
+            {
+              "1D": 0.06824913507087038,
+              "3D": 0.051527644830317465,
+              "5D": 0.042625000000000024,
+              "date": "2024-01-10"
+            },
+            {
+              "1D": 0.062008283331435265,
+              "3D": 0.04660990190688863,
+              "5D": 0.0382849999999999,
+              "date": "2024-01-11"
+            }
+          ],
+          "shape": [
+            9,
+            3
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {},
+      "role": "plot_returns_table"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "factor_quantile"
+          ],
+          "records": [
+            {
+              "1D": -0.032986493723320964,
+              "3D": -0.024418259484823346,
+              "5D": -0.020683888888888835,
+              "factor_quantile": 1
+            },
+            {
+              "1D": -0.0018735942772449832,
+              "3D": -0.0005536423838816695,
+              "5D": -0.0009988888888888825,
+              "factor_quantile": 2
+            },
+            {
+              "1D": 0.03242647779036156,
+              "3D": 0.023563547731158874,
+              "5D": 0.01989166666666664,
+              "factor_quantile": 3
+            }
+          ],
+          "shape": [
+            3,
+            3
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {
+        "by_group": false,
+        "ylim_percentiles": null
+      },
+      "role": "plot_quantile_returns_bar"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "date"
+          ],
+          "records": [
+            {
+              "1D": 0.9746794344808964,
+              "3D": 0.9746794344808964,
+              "5D": 0.9746794344808964,
+              "date": "2024-01-02"
+            },
+            {
+              "1D": 1.0,
+              "3D": 1.0,
+              "5D": 1.0,
+              "date": "2024-01-03"
+            },
+            {
+              "1D": 0.9999999999999999,
+              "3D": 0.9999999999999999,
+              "5D": 0.9999999999999999,
+              "date": "2024-01-04"
+            },
+            {
+              "1D": 1.0,
+              "3D": 1.0,
+              "5D": 1.0,
+              "date": "2024-01-05"
+            },
+            {
+              "1D": null,
+              "3D": null,
+              "5D": null,
+              "date": "2024-01-08"
+            },
+            {
+              "1D": 1.0,
+              "3D": 1.0,
+              "5D": 1.0,
+              "date": "2024-01-09"
+            },
+            {
+              "1D": null,
+              "3D": 0.9999999999999999,
+              "5D": 0.9999999999999999,
+              "date": "2024-01-10"
+            },
+            {
+              "1D": 0.9999999999999999,
+              "3D": 0.9999999999999999,
+              "5D": 0.9999999999999999,
+              "date": "2024-01-11"
+            }
+          ],
+          "shape": [
+            9,
+            3
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {},
+      "role": "plot_information_table"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "None"
+          ],
+          "records": [
+            {
+              "1D": 4.350294986734445,
+              "3D": 2.332441659722131,
+              "5D": 1.8169852284117947,
+              "index": "Ann. alpha"
+            },
+            {
+              "1D": -0.08888935904061046,
+              "3D": -0.08282914739914136,
+              "5D": -0.10433030356840968,
+              "index": "beta"
+            }
+          ],
+          "shape": [
+            2,
+            3
+          ],
+          "type": "DataFrame"
+        },
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "factor_quantile"
+          ],
+          "records": [
+            {
+              "1D": -0.032986493723320964,
+              "3D": -0.024418259484823346,
+              "5D": -0.020683888888888835,
+              "factor_quantile": 1
+            },
+            {
+              "1D": -0.0018735942772449832,
+              "3D": -0.0005536423838816695,
+              "5D": -0.0009988888888888825,
+              "factor_quantile": 2
+            },
+            {
+              "1D": 0.03242647779036156,
+              "3D": 0.023563547731158874,
+              "5D": 0.01989166666666664,
+              "factor_quantile": 3
+            }
+          ],
+          "shape": [
+            3,
+            3
+          ],
+          "type": "DataFrame"
+        },
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "date"
+          ],
+          "records": [
+            {
+              "1D": 0.0705070080873319,
+              "3D": 0.05170470931759508,
+              "5D": 0.043709999999999916,
+              "date": "2024-01-02"
+            },
+            {
+              "1D": 0.0705070080873319,
+              "3D": 0.04919960300158588,
+              "5D": 0.043709999999999916,
+              "date": "2024-01-03"
+            },
+            {
+              "1D": 0.06530124507861579,
+              "3D": 0.04660463328016873,
+              "5D": 0.04045499999999991,
+              "date": "2024-01-04"
+            },
+            {
+              "1D": 0.06377225208441983,
+              "3D": 0.049141807701723716,
+              "5D": 0.039369999999999905,
+              "date": "2024-01-05"
+            },
+            {
+              "1D": 0.06029284920461786,
+              "3D": 0.04407419216555786,
+              "5D": 0.0371999999999999,
+              "date": "2024-01-08"
+            },
+            {
+              "1D": 0.05794583051204405,
+              "3D": 0.041396181534986254,
+              "5D": 0.0361149999999999,
+              "date": "2024-01-09"
+            },
+            {
+              "1D": 0.06824913507087038,
+              "3D": 0.051527644830317465,
+              "5D": 0.042625000000000024,
+              "date": "2024-01-10"
+            },
+            {
+              "1D": 0.062008283331435265,
+              "3D": 0.04660990190688863,
+              "5D": 0.0382849999999999,
+              "date": "2024-01-11"
+            }
+          ],
+          "shape": [
+            9,
+            3
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {},
+      "role": "plot_returns_table"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "factor_quantile"
+          ],
+          "records": [
+            {
+              "1D": -0.032986493723320964,
+              "3D": -0.024418259484823346,
+              "5D": -0.020683888888888835,
+              "factor_quantile": 1
+            },
+            {
+              "1D": -0.0018735942772449832,
+              "3D": -0.0005536423838816695,
+              "5D": -0.0009988888888888825,
+              "factor_quantile": 2
+            },
+            {
+              "1D": 0.03242647779036156,
+              "3D": 0.023563547731158874,
+              "5D": 0.01989166666666664,
+              "factor_quantile": 3
+            }
+          ],
+          "shape": [
+            3,
+            3
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {
+        "by_group": false,
+        "ylim_percentiles": null
+      },
+      "role": "plot_quantile_returns_bar"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "date"
+          ],
+          "records": [
+            {
+              "1D": 0.9746794344808964,
+              "3D": 0.9746794344808964,
+              "5D": 0.9746794344808964,
+              "date": "2024-01-02"
+            },
+            {
+              "1D": 1.0,
+              "3D": 1.0,
+              "5D": 1.0,
+              "date": "2024-01-03"
+            },
+            {
+              "1D": 0.9999999999999999,
+              "3D": 0.9999999999999999,
+              "5D": 0.9999999999999999,
+              "date": "2024-01-04"
+            },
+            {
+              "1D": 1.0,
+              "3D": 1.0,
+              "5D": 1.0,
+              "date": "2024-01-05"
+            },
+            {
+              "1D": null,
+              "3D": null,
+              "5D": null,
+              "date": "2024-01-08"
+            },
+            {
+              "1D": 1.0,
+              "3D": 1.0,
+              "5D": 1.0,
+              "date": "2024-01-09"
+            },
+            {
+              "1D": null,
+              "3D": 0.9999999999999999,
+              "5D": 0.9999999999999999,
+              "date": "2024-01-10"
+            },
+            {
+              "1D": 0.9999999999999999,
+              "3D": 0.9999999999999999,
+              "5D": 0.9999999999999999,
+              "date": "2024-01-11"
+            }
+          ],
+          "shape": [
+            9,
+            3
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {},
+      "role": "plot_information_table"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "date"
+          ],
+          "records": [
+            {
+              "1D": 0.9746794344808964,
+              "3D": 0.9746794344808964,
+              "5D": 0.9746794344808964,
+              "date": "2024-01-02"
+            },
+            {
+              "1D": 1.0,
+              "3D": 1.0,
+              "5D": 1.0,
+              "date": "2024-01-03"
+            },
+            {
+              "1D": 0.9999999999999999,
+              "3D": 0.9999999999999999,
+              "5D": 0.9999999999999999,
+              "date": "2024-01-04"
+            },
+            {
+              "1D": 1.0,
+              "3D": 1.0,
+              "5D": 1.0,
+              "date": "2024-01-05"
+            },
+            {
+              "1D": null,
+              "3D": null,
+              "5D": null,
+              "date": "2024-01-08"
+            },
+            {
+              "1D": 1.0,
+              "3D": 1.0,
+              "5D": 1.0,
+              "date": "2024-01-09"
+            },
+            {
+              "1D": null,
+              "3D": 0.9999999999999999,
+              "5D": 0.9999999999999999,
+              "date": "2024-01-10"
+            },
+            {
+              "1D": 0.9999999999999999,
+              "3D": 0.9999999999999999,
+              "5D": 0.9999999999999999,
+              "date": "2024-01-11"
+            }
+          ],
+          "shape": [
+            9,
+            3
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {},
+      "role": "plot_ic_ts"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "date"
+          ],
+          "records": [
+            {
+              "1D": 0.9746794344808964,
+              "3D": 0.9746794344808964,
+              "5D": 0.9746794344808964,
+              "date": "2024-01-02"
+            },
+            {
+              "1D": 1.0,
+              "3D": 1.0,
+              "5D": 1.0,
+              "date": "2024-01-03"
+            },
+            {
+              "1D": 0.9999999999999999,
+              "3D": 0.9999999999999999,
+              "5D": 0.9999999999999999,
+              "date": "2024-01-04"
+            },
+            {
+              "1D": 1.0,
+              "3D": 1.0,
+              "5D": 1.0,
+              "date": "2024-01-05"
+            },
+            {
+              "1D": null,
+              "3D": null,
+              "5D": null,
+              "date": "2024-01-08"
+            },
+            {
+              "1D": 1.0,
+              "3D": 1.0,
+              "5D": 1.0,
+              "date": "2024-01-09"
+            },
+            {
+              "1D": null,
+              "3D": 0.9999999999999999,
+              "5D": 0.9999999999999999,
+              "date": "2024-01-10"
+            },
+            {
+              "1D": 0.9999999999999999,
+              "3D": 0.9999999999999999,
+              "5D": 0.9999999999999999,
+              "date": "2024-01-11"
+            }
+          ],
+          "shape": [
+            9,
+            3
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {},
+      "role": "plot_ic_hist"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "date"
+          ],
+          "records": [
+            {
+              "1D": 0.9746794344808964,
+              "3D": 0.9746794344808964,
+              "5D": 0.9746794344808964,
+              "date": "2024-01-02"
+            },
+            {
+              "1D": 1.0,
+              "3D": 1.0,
+              "5D": 1.0,
+              "date": "2024-01-03"
+            },
+            {
+              "1D": 0.9999999999999999,
+              "3D": 0.9999999999999999,
+              "5D": 0.9999999999999999,
+              "date": "2024-01-04"
+            },
+            {
+              "1D": 1.0,
+              "3D": 1.0,
+              "5D": 1.0,
+              "date": "2024-01-05"
+            },
+            {
+              "1D": null,
+              "3D": null,
+              "5D": null,
+              "date": "2024-01-08"
+            },
+            {
+              "1D": 1.0,
+              "3D": 1.0,
+              "5D": 1.0,
+              "date": "2024-01-09"
+            },
+            {
+              "1D": null,
+              "3D": 0.9999999999999999,
+              "5D": 0.9999999999999999,
+              "date": "2024-01-10"
+            },
+            {
+              "1D": 0.9999999999999999,
+              "3D": 0.9999999999999999,
+              "5D": 0.9999999999999999,
+              "date": "2024-01-11"
+            }
+          ],
+          "shape": [
+            9,
+            3
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {},
+      "role": "plot_ic_qq"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "group"
+          ],
+          "records": [
+            {
+              "1D": 0.9851139337538266,
+              "3D": 0.9832531754730549,
+              "5D": 0.9851139337538266,
+              "group": "technology"
+            },
+            {
+              "1D": 0.9999999999999998,
+              "3D": 0.9999999999999999,
+              "5D": 0.9999999999999999,
+              "group": "utilities"
+            }
+          ],
+          "shape": [
+            2,
+            3
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {},
+      "role": "plot_ic_by_group"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "factor",
+            "group",
+            "factor_quantile",
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "date",
+            "asset"
+          ],
+          "records": [
+            {
+              "1D": -0.006,
+              "3D": -0.0137,
+              "5D": -0.0186,
+              "asset": "A",
+              "date": "2024-01-02",
+              "factor": -1.25,
+              "factor_quantile": 1,
+              "group": "technology"
+            },
+            {
+              "1D": -0.0053,
+              "3D": -0.01066,
+              "5D": -0.01643,
+              "asset": "B",
+              "date": "2024-01-02",
+              "factor": -1.25,
+              "factor_quantile": 1,
+              "group": "technology"
+            },
+            {
+              "1D": 0.0014,
+              "3D": 0.00258,
+              "5D": 0.00434,
+              "asset": "C",
+              "date": "2024-01-02",
+              "factor": 0.0,
+              "factor_quantile": 2,
+              "group": "technology"
+            },
+            {
+              "1D": 0.0081,
+              "3D": 0.01882,
+              "5D": 0.02511,
+              "asset": "D",
+              "date": "2024-01-02",
+              "factor": 1.1700000000000002,
+              "factor_quantile": 3,
+              "group": "utilities"
+            },
+            {
+              "1D": 0.0088,
+              "3D": 0.01886,
+              "5D": 0.02728,
+              "asset": "E",
+              "date": "2024-01-02",
+              "factor": 1.2400000000000002,
+              "factor_quantile": 3,
+              "group": "utilities"
+            },
+            {
+              "1D": -0.005,
+              "3D": -0.01,
+              "5D": -0.0163,
+              "asset": "A",
+              "date": "2024-01-03",
+              "factor": -1.2100000000000002,
+              "factor_quantile": 1,
+              "group": "technology"
+            },
+            {
+              "1D": 0.0017,
+              "3D": 0.00324,
+              "5D": 0.00447,
+              "asset": "B",
+              "date": "2024-01-03",
+              "factor": -0.04000000000000001,
+              "factor_quantile": 2,
+              "group": "technology"
+            },
+            {
+              "1D": 0.0024,
+              "3D": 0.00628,
+              "5D": 0.00664,
+              "asset": "C",
+              "date": "2024-01-03",
+              "factor": 0.03,
+              "factor_quantile": 2,
+              "group": "technology"
+            }
+          ],
+          "shape": [
+            42,
+            6
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {},
+      "role": "plot_quantile_statistics_table"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "None"
+          ],
+          "records": [
+            {
+              "1D": 4.350294986734445,
+              "3D": 2.332441659722131,
+              "5D": 1.8169852284117947,
+              "index": "Ann. alpha"
+            },
+            {
+              "1D": -0.08888935904061046,
+              "3D": -0.08282914739914136,
+              "5D": -0.10433030356840968,
+              "index": "beta"
+            }
+          ],
+          "shape": [
+            2,
+            3
+          ],
+          "type": "DataFrame"
+        },
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "factor_quantile"
+          ],
+          "records": [
+            {
+              "1D": -0.032986493723320964,
+              "3D": -0.024418259484823346,
+              "5D": -0.020683888888888835,
+              "factor_quantile": 1
+            },
+            {
+              "1D": -0.0018735942772449832,
+              "3D": -0.0005536423838816695,
+              "5D": -0.0009988888888888825,
+              "factor_quantile": 2
+            },
+            {
+              "1D": 0.03242647779036156,
+              "3D": 0.023563547731158874,
+              "5D": 0.01989166666666664,
+              "factor_quantile": 3
+            }
+          ],
+          "shape": [
+            3,
+            3
+          ],
+          "type": "DataFrame"
+        },
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "date"
+          ],
+          "records": [
+            {
+              "1D": 0.0705070080873319,
+              "3D": 0.05170470931759508,
+              "5D": 0.043709999999999916,
+              "date": "2024-01-02"
+            },
+            {
+              "1D": 0.0705070080873319,
+              "3D": 0.04919960300158588,
+              "5D": 0.043709999999999916,
+              "date": "2024-01-03"
+            },
+            {
+              "1D": 0.06530124507861579,
+              "3D": 0.04660463328016873,
+              "5D": 0.04045499999999991,
+              "date": "2024-01-04"
+            },
+            {
+              "1D": 0.06377225208441983,
+              "3D": 0.049141807701723716,
+              "5D": 0.039369999999999905,
+              "date": "2024-01-05"
+            },
+            {
+              "1D": 0.06029284920461786,
+              "3D": 0.04407419216555786,
+              "5D": 0.0371999999999999,
+              "date": "2024-01-08"
+            },
+            {
+              "1D": 0.05794583051204405,
+              "3D": 0.041396181534986254,
+              "5D": 0.0361149999999999,
+              "date": "2024-01-09"
+            },
+            {
+              "1D": 0.06824913507087038,
+              "3D": 0.051527644830317465,
+              "5D": 0.042625000000000024,
+              "date": "2024-01-10"
+            },
+            {
+              "1D": 0.062008283331435265,
+              "3D": 0.04660990190688863,
+              "5D": 0.0382849999999999,
+              "date": "2024-01-11"
+            }
+          ],
+          "shape": [
+            9,
+            3
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {},
+      "role": "plot_returns_table"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "factor_quantile"
+          ],
+          "records": [
+            {
+              "1D": -0.032986493723320964,
+              "3D": -0.024418259484823346,
+              "5D": -0.020683888888888835,
+              "factor_quantile": 1
+            },
+            {
+              "1D": -0.0018735942772449832,
+              "3D": -0.0005536423838816695,
+              "5D": -0.0009988888888888825,
+              "factor_quantile": 2
+            },
+            {
+              "1D": 0.03242647779036156,
+              "3D": 0.023563547731158874,
+              "5D": 0.01989166666666664,
+              "factor_quantile": 3
+            }
+          ],
+          "shape": [
+            3,
+            3
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {
+        "by_group": false,
+        "ylim_percentiles": null
+      },
+      "role": "plot_quantile_returns_bar"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "-1",
+            "0",
+            "1",
+            "2",
+            "-2"
+          ],
+          "index_names": [
+            "factor_quantile",
+            "None"
+          ],
+          "records": [
+            {
+              "-1": -0.0028571428571428567,
+              "-2": -0.002285714285714286,
+              "0": -0.0012499999999999996,
+              "1": 0.0002500000000000002,
+              "2": 0.0009166666666666669,
+              "factor_quantile": 1,
+              "level_1": "mean"
+            },
+            {
+              "-1": 0.006135377506140689,
+              "-2": 0.005544194733060451,
+              "0": 0.0067137917751446535,
+              "1": 0.00672415687757846,
+              "2": 0.006382919916986791,
+              "factor_quantile": 1,
+              "level_1": "std"
+            },
+            {
+              "-1": -0.0012499999999999996,
+              "-2": -0.0008571428571428567,
+              "0": 0.000785714285714286,
+              "1": 0.0025,
+              "2": 0.002583333333333333,
+              "factor_quantile": 2,
+              "level_1": "mean"
+            },
+            {
+              "-1": 0.005509731650193397,
+              "-2": 0.00741459307556325,
+              "0": 0.006005949431307974,
+              "1": 0.006222080497252162,
+              "2": 0.005342440141608202,
+              "factor_quantile": 2,
+              "level_1": "std"
+            },
+            {
+              "-1": 0.0037500000000000003,
+              "-2": 0.0006999999999999997,
+              "0": 0.0055,
+              "1": 0.006571428571428571,
+              "2": 0.008,
+              "factor_quantile": 3,
+              "level_1": "mean"
+            },
+            {
+              "-1": 0.004667516929344155,
+              "-2": 0.004644889664997437,
+              "0": 0.0029999999999999996,
+              "1": 0.0032330142208751495,
+              "2": 0.00298328677803526,
+              "factor_quantile": 3,
+              "level_1": "std"
+            }
+          ],
+          "shape": [
+            6,
+            5
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {
+        "by_quantile": false,
+        "std_bar": false
+      },
+      "role": "plot_quantile_average_cumulative_return"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "-1",
+            "0",
+            "1",
+            "2",
+            "-2"
+          ],
+          "index_names": [
+            "factor_quantile",
+            "None"
+          ],
+          "records": [
+            {
+              "-1": -0.0028571428571428567,
+              "-2": -0.002285714285714286,
+              "0": -0.0012499999999999996,
+              "1": 0.0002500000000000002,
+              "2": 0.0009166666666666669,
+              "factor_quantile": 1,
+              "level_1": "mean"
+            },
+            {
+              "-1": 0.006135377506140689,
+              "-2": 0.005544194733060451,
+              "0": 0.0067137917751446535,
+              "1": 0.00672415687757846,
+              "2": 0.006382919916986791,
+              "factor_quantile": 1,
+              "level_1": "std"
+            },
+            {
+              "-1": -0.0012499999999999996,
+              "-2": -0.0008571428571428567,
+              "0": 0.000785714285714286,
+              "1": 0.0025,
+              "2": 0.002583333333333333,
+              "factor_quantile": 2,
+              "level_1": "mean"
+            },
+            {
+              "-1": 0.005509731650193397,
+              "-2": 0.00741459307556325,
+              "0": 0.006005949431307974,
+              "1": 0.006222080497252162,
+              "2": 0.005342440141608202,
+              "factor_quantile": 2,
+              "level_1": "std"
+            },
+            {
+              "-1": 0.0037500000000000003,
+              "-2": 0.0006999999999999997,
+              "0": 0.0055,
+              "1": 0.006571428571428571,
+              "2": 0.008,
+              "factor_quantile": 3,
+              "level_1": "mean"
+            },
+            {
+              "-1": 0.004667516929344155,
+              "-2": 0.004644889664997437,
+              "0": 0.0029999999999999996,
+              "1": 0.0032330142208751495,
+              "2": 0.00298328677803526,
+              "factor_quantile": 3,
+              "level_1": "std"
+            }
+          ],
+          "shape": [
+            6,
+            5
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {
+        "by_quantile": true,
+        "std_bar": true
+      },
+      "role": "plot_quantile_average_cumulative_return"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "factor",
+            "group",
+            "factor_quantile",
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "date",
+            "asset"
+          ],
+          "records": [
+            {
+              "1D": -0.006,
+              "3D": -0.0137,
+              "5D": -0.0186,
+              "asset": "A",
+              "date": "2024-01-02",
+              "factor": -1.25,
+              "factor_quantile": 1,
+              "group": "technology"
+            },
+            {
+              "1D": -0.0053,
+              "3D": -0.01066,
+              "5D": -0.01643,
+              "asset": "B",
+              "date": "2024-01-02",
+              "factor": -1.25,
+              "factor_quantile": 1,
+              "group": "technology"
+            },
+            {
+              "1D": 0.0014,
+              "3D": 0.00258,
+              "5D": 0.00434,
+              "asset": "C",
+              "date": "2024-01-02",
+              "factor": 0.0,
+              "factor_quantile": 2,
+              "group": "technology"
+            },
+            {
+              "1D": 0.0081,
+              "3D": 0.01882,
+              "5D": 0.02511,
+              "asset": "D",
+              "date": "2024-01-02",
+              "factor": 1.1700000000000002,
+              "factor_quantile": 3,
+              "group": "utilities"
+            },
+            {
+              "1D": 0.0088,
+              "3D": 0.01886,
+              "5D": 0.02728,
+              "asset": "E",
+              "date": "2024-01-02",
+              "factor": 1.2400000000000002,
+              "factor_quantile": 3,
+              "group": "utilities"
+            },
+            {
+              "1D": -0.005,
+              "3D": -0.01,
+              "5D": -0.0163,
+              "asset": "A",
+              "date": "2024-01-03",
+              "factor": -1.2100000000000002,
+              "factor_quantile": 1,
+              "group": "technology"
+            },
+            {
+              "1D": 0.0017,
+              "3D": 0.00324,
+              "5D": 0.00447,
+              "asset": "B",
+              "date": "2024-01-03",
+              "factor": -0.04000000000000001,
+              "factor_quantile": 2,
+              "group": "technology"
+            },
+            {
+              "1D": 0.0024,
+              "3D": 0.00628,
+              "5D": 0.00664,
+              "asset": "C",
+              "date": "2024-01-03",
+              "factor": 0.03,
+              "factor_quantile": 2,
+              "group": "technology"
+            }
+          ],
+          "shape": [
+            42,
+            6
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {},
+      "role": "plot_quantile_statistics_table"
+    },
+    {
+      "args": [],
+      "kwargs": {
+        "events": {
+          "index_names": [
+            "date",
+            "asset"
+          ],
+          "length": 42,
+          "name": "factor",
+          "records": [
+            {
+              "asset": "A",
+              "date": "2024-01-02",
+              "factor": -1.25
+            },
+            {
+              "asset": "B",
+              "date": "2024-01-02",
+              "factor": -1.25
+            },
+            {
+              "asset": "C",
+              "date": "2024-01-02",
+              "factor": 0.0
+            },
+            {
+              "asset": "D",
+              "date": "2024-01-02",
+              "factor": 1.1700000000000002
+            },
+            {
+              "asset": "E",
+              "date": "2024-01-02",
+              "factor": 1.2400000000000002
+            },
+            {
+              "asset": "A",
+              "date": "2024-01-03",
+              "factor": -1.2100000000000002
+            },
+            {
+              "asset": "B",
+              "date": "2024-01-03",
+              "factor": -0.04000000000000001
+            },
+            {
+              "asset": "C",
+              "date": "2024-01-03",
+              "factor": 0.03
+            }
+          ],
+          "type": "Series"
+        },
+        "num_bars": 4
+      },
+      "role": "plot_events_distribution"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "-1",
+            "0",
+            "1",
+            "2",
+            "-2"
+          ],
+          "index_names": [
+            "factor_quantile",
+            "None"
+          ],
+          "records": [
+            {
+              "-1": -0.0028571428571428567,
+              "-2": -0.002285714285714286,
+              "0": -0.0012499999999999996,
+              "1": 0.0002500000000000002,
+              "2": 0.0009166666666666669,
+              "factor_quantile": 1,
+              "level_1": "mean"
+            },
+            {
+              "-1": 0.006135377506140689,
+              "-2": 0.005544194733060451,
+              "0": 0.0067137917751446535,
+              "1": 0.00672415687757846,
+              "2": 0.006382919916986791,
+              "factor_quantile": 1,
+              "level_1": "std"
+            },
+            {
+              "-1": -0.0012499999999999996,
+              "-2": -0.0008571428571428567,
+              "0": 0.000785714285714286,
+              "1": 0.0025,
+              "2": 0.002583333333333333,
+              "factor_quantile": 2,
+              "level_1": "mean"
+            },
+            {
+              "-1": 0.005509731650193397,
+              "-2": 0.00741459307556325,
+              "0": 0.006005949431307974,
+              "1": 0.006222080497252162,
+              "2": 0.005342440141608202,
+              "factor_quantile": 2,
+              "level_1": "std"
+            },
+            {
+              "-1": 0.0037500000000000003,
+              "-2": 0.0006999999999999997,
+              "0": 0.0055,
+              "1": 0.006571428571428571,
+              "2": 0.008,
+              "factor_quantile": 3,
+              "level_1": "mean"
+            },
+            {
+              "-1": 0.004667516929344155,
+              "-2": 0.004644889664997437,
+              "0": 0.0029999999999999996,
+              "1": 0.0032330142208751495,
+              "2": 0.00298328677803526,
+              "factor_quantile": 3,
+              "level_1": "std"
+            }
+          ],
+          "shape": [
+            6,
+            5
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {
+        "by_quantile": false,
+        "std_bar": false
+      },
+      "role": "plot_quantile_average_cumulative_return"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "-1",
+            "0",
+            "1",
+            "2",
+            "-2"
+          ],
+          "index_names": [
+            "factor_quantile",
+            "None"
+          ],
+          "records": [
+            {
+              "-1": -0.0028571428571428567,
+              "-2": -0.002285714285714286,
+              "0": -0.0012499999999999996,
+              "1": 0.0002500000000000002,
+              "2": 0.0009166666666666669,
+              "factor_quantile": 1,
+              "level_1": "mean"
+            },
+            {
+              "-1": 0.006135377506140689,
+              "-2": 0.005544194733060451,
+              "0": 0.0067137917751446535,
+              "1": 0.00672415687757846,
+              "2": 0.006382919916986791,
+              "factor_quantile": 1,
+              "level_1": "std"
+            },
+            {
+              "-1": -0.0012499999999999996,
+              "-2": -0.0008571428571428567,
+              "0": 0.000785714285714286,
+              "1": 0.0025,
+              "2": 0.002583333333333333,
+              "factor_quantile": 2,
+              "level_1": "mean"
+            },
+            {
+              "-1": 0.005509731650193397,
+              "-2": 0.00741459307556325,
+              "0": 0.006005949431307974,
+              "1": 0.006222080497252162,
+              "2": 0.005342440141608202,
+              "factor_quantile": 2,
+              "level_1": "std"
+            },
+            {
+              "-1": 0.0037500000000000003,
+              "-2": 0.0006999999999999997,
+              "0": 0.0055,
+              "1": 0.006571428571428571,
+              "2": 0.008,
+              "factor_quantile": 3,
+              "level_1": "mean"
+            },
+            {
+              "-1": 0.004667516929344155,
+              "-2": 0.004644889664997437,
+              "0": 0.0029999999999999996,
+              "1": 0.0032330142208751495,
+              "2": 0.00298328677803526,
+              "factor_quantile": 3,
+              "level_1": "std"
+            }
+          ],
+          "shape": [
+            6,
+            5
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {
+        "by_quantile": true,
+        "std_bar": true
+      },
+      "role": "plot_quantile_average_cumulative_return"
+    },
+    {
+      "args": [
+        {
+          "columns": [
+            "5D",
+            "1D",
+            "3D"
+          ],
+          "index_names": [
+            "factor_quantile"
+          ],
+          "records": [
+            {
+              "1D": -0.0059026804490409646,
+              "3D": -0.004196471011329139,
+              "5D": -0.004468333333333296,
+              "factor_quantile": 1
+            },
+            {
+              "1D": 0.0259031817019868,
+              "3D": 0.01986337303571406,
+              "5D": 0.015216666666666656,
+              "factor_quantile": 2
+            },
+            {
+              "1D": 0.06096217620485356,
+              "3D": 0.04417504071441902,
+              "5D": 0.03610722222222229,
+              "factor_quantile": 3
+            }
+          ],
+          "shape": [
+            3,
+            3
+          ],
+          "type": "DataFrame"
+        }
+      ],
+      "kwargs": {
+        "by_group": false,
+        "ylim_percentiles": null
+      },
+      "role": "plot_quantile_returns_bar"
+    }
+  ],
+  "print_tables": []
+}

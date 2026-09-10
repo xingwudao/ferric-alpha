@@ -1,0 +1,48 @@
+[
+  {
+    "role": "mean_return_by_quantile",
+    "report_kind": "returns",
+    "panel_id": "returns.quantile-bar",
+    "table_ids": [
+      "returns.mean_by_quantile"
+    ],
+    "panel_kind": "quantile_returns_bar"
+  },
+  {
+    "role": "daily_return_distribution",
+    "report_kind": "returns",
+    "panel_id": "returns.daily-distribution",
+    "table_ids": [
+      "returns.daily_by_quantile"
+    ],
+    "panel_kind": "quantile_returns_distribution"
+  },
+  {
+    "role": "information_coefficient",
+    "report_kind": "information",
+    "panel_id": "information.ic-time-series",
+    "table_ids": [
+      "information.ic_by_date",
+      "information.ic_rolling"
+    ],
+    "panel_kind": "ic_time_series"
+  },
+  {
+    "role": "turnover",
+    "report_kind": "turnover",
+    "panel_id": "turnover.quantile-series.0",
+    "table_ids": [
+      "turnover.quantile_series"
+    ],
+    "panel_kind": "quantile_turnover"
+  },
+  {
+    "role": "event_distribution",
+    "report_kind": "event_study",
+    "panel_id": "events.distribution",
+    "table_ids": [
+      "events.distribution"
+    ],
+    "panel_kind": "event_distribution"
+  }
+]

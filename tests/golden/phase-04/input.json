@@ -1,0 +1,1070 @@
+{
+  "constant_ic_rows": [
+    {
+      "asset": "A",
+      "date": "2024-01-02T09:30:00-05:00",
+      "factor": 1.0,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.01,
+      "forward_return_3D": 0.02,
+      "forward_return_5D": 0.03,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-02T09:30:00-05:00",
+      "factor": 2.0,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.02,
+      "forward_return_3D": 0.04,
+      "forward_return_5D": 0.06,
+      "group": "technology"
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-02T09:30:00-05:00",
+      "factor": 3.0,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.03,
+      "forward_return_3D": 0.06,
+      "forward_return_5D": 0.09,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-02T09:30:00-05:00",
+      "factor": 4.0,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.04,
+      "forward_return_3D": 0.08,
+      "forward_return_5D": 0.12,
+      "group": "utilities"
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-02T09:30:00-05:00",
+      "factor": 5.0,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.05,
+      "forward_return_3D": 0.1,
+      "forward_return_5D": 0.15,
+      "group": "utilities"
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-03T09:30:00-05:00",
+      "factor": 1.01,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.0101,
+      "forward_return_3D": 0.0202,
+      "forward_return_5D": 0.0303,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-03T09:30:00-05:00",
+      "factor": 2.01,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.0201,
+      "forward_return_3D": 0.0402,
+      "forward_return_5D": 0.06029999999999999,
+      "group": "technology"
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-03T09:30:00-05:00",
+      "factor": 3.01,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0301,
+      "forward_return_3D": 0.0602,
+      "forward_return_5D": 0.09029999999999999,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-03T09:30:00-05:00",
+      "factor": 4.01,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0401,
+      "forward_return_3D": 0.0802,
+      "forward_return_5D": 0.12029999999999999,
+      "group": "utilities"
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-03T09:30:00-05:00",
+      "factor": 5.01,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0501,
+      "forward_return_3D": 0.1002,
+      "forward_return_5D": 0.1503,
+      "group": "utilities"
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-04T09:30:00-05:00",
+      "factor": 1.02,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.0102,
+      "forward_return_3D": 0.0204,
+      "forward_return_5D": 0.0306,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-04T09:30:00-05:00",
+      "factor": 2.02,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.0202,
+      "forward_return_3D": 0.0404,
+      "forward_return_5D": 0.0606,
+      "group": "technology"
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-04T09:30:00-05:00",
+      "factor": 3.02,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0302,
+      "forward_return_3D": 0.0604,
+      "forward_return_5D": 0.0906,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-04T09:30:00-05:00",
+      "factor": 4.02,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0402,
+      "forward_return_3D": 0.0804,
+      "forward_return_5D": 0.12059999999999998,
+      "group": "utilities"
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-04T09:30:00-05:00",
+      "factor": 5.02,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.050199999999999995,
+      "forward_return_3D": 0.10039999999999999,
+      "forward_return_5D": 0.15059999999999998,
+      "group": "utilities"
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-05T09:30:00-05:00",
+      "factor": 1.03,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.0103,
+      "forward_return_3D": 0.0206,
+      "forward_return_5D": 0.0309,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-05T09:30:00-05:00",
+      "factor": 2.03,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.0203,
+      "forward_return_3D": 0.0406,
+      "forward_return_5D": 0.06089999999999999,
+      "group": "technology"
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-05T09:30:00-05:00",
+      "factor": 3.03,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.030299999999999997,
+      "forward_return_3D": 0.060599999999999994,
+      "forward_return_5D": 0.0909,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-05T09:30:00-05:00",
+      "factor": 4.03,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0403,
+      "forward_return_3D": 0.0806,
+      "forward_return_5D": 0.12090000000000001,
+      "group": "utilities"
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-05T09:30:00-05:00",
+      "factor": 5.03,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.050300000000000004,
+      "forward_return_3D": 0.10060000000000001,
+      "forward_return_5D": 0.1509,
+      "group": "utilities"
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-08T09:30:00-05:00",
+      "factor": 1.04,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.010400000000000001,
+      "forward_return_3D": 0.020800000000000003,
+      "forward_return_5D": 0.0312,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-08T09:30:00-05:00",
+      "factor": 2.04,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.0204,
+      "forward_return_3D": 0.0408,
+      "forward_return_5D": 0.0612,
+      "group": "technology"
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-08T09:30:00-05:00",
+      "factor": 3.04,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0304,
+      "forward_return_3D": 0.0608,
+      "forward_return_5D": 0.0912,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-08T09:30:00-05:00",
+      "factor": 4.04,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0404,
+      "forward_return_3D": 0.0808,
+      "forward_return_5D": 0.1212,
+      "group": "utilities"
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-08T09:30:00-05:00",
+      "factor": 5.04,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0504,
+      "forward_return_3D": 0.1008,
+      "forward_return_5D": 0.1512,
+      "group": "utilities"
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-09T09:30:00-05:00",
+      "factor": 1.05,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.0105,
+      "forward_return_3D": 0.021,
+      "forward_return_5D": 0.0315,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-09T09:30:00-05:00",
+      "factor": 2.05,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.020499999999999997,
+      "forward_return_3D": 0.040999999999999995,
+      "forward_return_5D": 0.06149999999999999,
+      "group": "technology"
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-09T09:30:00-05:00",
+      "factor": 3.05,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0305,
+      "forward_return_3D": 0.061,
+      "forward_return_5D": 0.0915,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-09T09:30:00-05:00",
+      "factor": 4.05,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0405,
+      "forward_return_3D": 0.081,
+      "forward_return_5D": 0.1215,
+      "group": "utilities"
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-09T09:30:00-05:00",
+      "factor": 5.05,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.050499999999999996,
+      "forward_return_3D": 0.10099999999999999,
+      "forward_return_5D": 0.1515,
+      "group": "utilities"
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-10T09:30:00-05:00",
+      "factor": 1.06,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.0106,
+      "forward_return_3D": 0.0212,
+      "forward_return_5D": 0.0318,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-10T09:30:00-05:00",
+      "factor": 2.06,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.0206,
+      "forward_return_3D": 0.0412,
+      "forward_return_5D": 0.0618,
+      "group": "technology"
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-10T09:30:00-05:00",
+      "factor": 3.06,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.030600000000000002,
+      "forward_return_3D": 0.061200000000000004,
+      "forward_return_5D": 0.09179999999999999,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-10T09:30:00-05:00",
+      "factor": 4.06,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0406,
+      "forward_return_3D": 0.0812,
+      "forward_return_5D": 0.12179999999999998,
+      "group": "utilities"
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-10T09:30:00-05:00",
+      "factor": 5.06,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0506,
+      "forward_return_3D": 0.1012,
+      "forward_return_5D": 0.1518,
+      "group": "utilities"
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-11T09:30:00-05:00",
+      "factor": 1.07,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.010700000000000001,
+      "forward_return_3D": 0.021400000000000002,
+      "forward_return_5D": 0.032100000000000004,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-11T09:30:00-05:00",
+      "factor": 2.07,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.0207,
+      "forward_return_3D": 0.0414,
+      "forward_return_5D": 0.062099999999999995,
+      "group": "technology"
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-11T09:30:00-05:00",
+      "factor": 3.07,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.030699999999999998,
+      "forward_return_3D": 0.061399999999999996,
+      "forward_return_5D": 0.09209999999999999,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-11T09:30:00-05:00",
+      "factor": 4.07,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.04070000000000001,
+      "forward_return_3D": 0.08140000000000001,
+      "forward_return_5D": 0.1221,
+      "group": "utilities"
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-11T09:30:00-05:00",
+      "factor": 5.07,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0507,
+      "forward_return_3D": 0.1014,
+      "forward_return_5D": 0.1521,
+      "group": "utilities"
+    }
+  ],
+  "description": "Phase 04 synthetic oracle input with shuffled forward-return columns.",
+  "event_returns": [
+    {
+      "asset": "A",
+      "date": "2023-12-29T09:30:00-05:00",
+      "return": -0.0125
+    },
+    {
+      "asset": "B",
+      "date": "2023-12-29T09:30:00-05:00",
+      "return": -0.0085
+    },
+    {
+      "asset": "C",
+      "date": "2023-12-29T09:30:00-05:00",
+      "return": -0.0045
+    },
+    {
+      "asset": "D",
+      "date": "2023-12-29T09:30:00-05:00",
+      "return": -0.0005
+    },
+    {
+      "asset": "E",
+      "date": "2023-12-29T09:30:00-05:00",
+      "return": 0.0035
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-02T09:30:00-05:00",
+      "return": -0.011
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-02T09:30:00-05:00",
+      "return": -0.007
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-02T09:30:00-05:00",
+      "return": -0.003
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-02T09:30:00-05:00",
+      "return": 0.001
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-02T09:30:00-05:00",
+      "return": 0.005
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-03T09:30:00-05:00",
+      "return": -0.0095
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-03T09:30:00-05:00",
+      "return": -0.0055
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-03T09:30:00-05:00",
+      "return": -0.0015
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-03T09:30:00-05:00",
+      "return": 0.0025
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-04T09:30:00-05:00",
+      "return": -0.008
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-04T09:30:00-05:00",
+      "return": -0.004
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-04T09:30:00-05:00",
+      "return": null
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-04T09:30:00-05:00",
+      "return": 0.004
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-04T09:30:00-05:00",
+      "return": 0.008
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-05T09:30:00-05:00",
+      "return": -0.0065
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-05T09:30:00-05:00",
+      "return": -0.0025
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-05T09:30:00-05:00",
+      "return": 0.0015
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-05T09:30:00-05:00",
+      "return": "NaN"
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-05T09:30:00-05:00",
+      "return": 0.0095
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-08T09:30:00-05:00",
+      "return": -0.005
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-08T09:30:00-05:00",
+      "return": -0.001
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-08T09:30:00-05:00",
+      "return": 0.003
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-08T09:30:00-05:00",
+      "return": 0.007
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-08T09:30:00-05:00",
+      "return": 0.011
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-09T09:30:00-05:00",
+      "return": -0.0035
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-09T09:30:00-05:00",
+      "return": 0.0045
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-09T09:30:00-05:00",
+      "return": 0.0085
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-09T09:30:00-05:00",
+      "return": 0.0125
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-10T09:30:00-05:00",
+      "return": "Infinity"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-10T09:30:00-05:00",
+      "return": 0.002
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-10T09:30:00-05:00",
+      "return": 0.006
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-10T09:30:00-05:00",
+      "return": 0.01
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-10T09:30:00-05:00",
+      "return": 0.014
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-11T09:30:00-05:00",
+      "return": -0.0005
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-11T09:30:00-05:00",
+      "return": 0.0035
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-11T09:30:00-05:00",
+      "return": 0.0075
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-11T09:30:00-05:00",
+      "return": 0.0115
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-11T09:30:00-05:00",
+      "return": 0.0155
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-12T09:30:00-05:00",
+      "return": 0.001
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-12T09:30:00-05:00",
+      "return": 0.005
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-12T09:30:00-05:00",
+      "return": 0.009
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-12T09:30:00-05:00",
+      "return": 0.013
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-12T09:30:00-05:00",
+      "return": 0.017
+    }
+  ],
+  "rows": [
+    {
+      "asset": "A",
+      "date": "2024-01-02T09:30:00-05:00",
+      "factor": -1.25,
+      "factor_quantile": 1,
+      "forward_return_1D": -0.006,
+      "forward_return_3D": -0.0137,
+      "forward_return_5D": -0.0186,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-02T09:30:00-05:00",
+      "factor": -1.25,
+      "factor_quantile": 1,
+      "forward_return_1D": -0.0053,
+      "forward_return_3D": -0.01066,
+      "forward_return_5D": -0.01643,
+      "group": "technology"
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-02T09:30:00-05:00",
+      "factor": 0.0,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0014,
+      "forward_return_3D": 0.00258,
+      "forward_return_5D": 0.00434,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-02T09:30:00-05:00",
+      "factor": 1.1700000000000002,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0081,
+      "forward_return_3D": 0.01882,
+      "forward_return_5D": 0.02511,
+      "group": "utilities"
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-02T09:30:00-05:00",
+      "factor": 1.2400000000000002,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0088,
+      "forward_return_3D": 0.01886,
+      "forward_return_5D": 0.02728,
+      "group": "utilities"
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-03T09:30:00-05:00",
+      "factor": -1.2100000000000002,
+      "factor_quantile": 1,
+      "forward_return_1D": -0.005,
+      "forward_return_3D": -0.01,
+      "forward_return_5D": -0.0163,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-03T09:30:00-05:00",
+      "factor": -0.04000000000000001,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0017,
+      "forward_return_3D": 0.00324,
+      "forward_return_5D": 0.00447,
+      "group": "technology"
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-03T09:30:00-05:00",
+      "factor": 0.03,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0024,
+      "forward_return_3D": 0.00628,
+      "forward_return_5D": 0.00664,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-03T09:30:00-05:00",
+      "factor": 1.2000000000000002,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0091,
+      "forward_return_3D": 0.01952,
+      "forward_return_5D": 0.02741,
+      "group": "utilities"
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-04T09:30:00-05:00",
+      "factor": -1.1800000000000002,
+      "factor_quantile": 1,
+      "forward_return_1D": -0.004,
+      "forward_return_3D": -0.0093,
+      "forward_return_5D": -0.014,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-04T09:30:00-05:00",
+      "factor": -0.010000000000000009,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0027,
+      "forward_return_3D": 0.00694,
+      "forward_return_5D": 0.00677,
+      "group": "technology"
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-04T09:30:00-05:00",
+      "factor": 1.1600000000000001,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0094,
+      "forward_return_3D": 0.02018,
+      "forward_return_5D": 0.02754,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-04T09:30:00-05:00",
+      "factor": -0.97,
+      "factor_quantile": 1,
+      "forward_return_1D": -0.0019,
+      "forward_return_3D": -0.00318,
+      "forward_return_5D": -0.00749,
+      "group": "utilities"
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-04T09:30:00-05:00",
+      "factor": 1.3000000000000003,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0108,
+      "forward_return_3D": 0.02326,
+      "forward_return_5D": 0.03188,
+      "group": "utilities"
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-05T09:30:00-05:00",
+      "factor": -0.05000000000000002,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.003,
+      "forward_return_3D": 0.0076,
+      "forward_return_5D": 0.0093,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-05T09:30:00-05:00",
+      "factor": 0.01999999999999999,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0037,
+      "forward_return_3D": 0.00764,
+      "forward_return_5D": 0.01147,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-05T09:30:00-05:00",
+      "factor": -0.9400000000000001,
+      "factor_quantile": 1,
+      "forward_return_1D": -0.0009,
+      "forward_return_3D": -0.00248,
+      "forward_return_5D": -0.00279,
+      "group": "utilities"
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-05T09:30:00-05:00",
+      "factor": 1.3300000000000003,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0118,
+      "forward_return_3D": 0.02696,
+      "forward_return_5D": 0.03658,
+      "group": "utilities"
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-08T09:30:00-05:00",
+      "factor": -1.12,
+      "factor_quantile": 1,
+      "forward_return_1D": -0.002,
+      "forward_return_3D": -0.0049,
+      "forward_return_5D": -0.007,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-08T09:30:00-05:00",
+      "factor": 0.04999999999999999,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0047,
+      "forward_return_3D": null,
+      "forward_return_5D": 0.01377,
+      "group": "technology"
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-08T09:30:00-05:00",
+      "factor": 1.2200000000000002,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0114,
+      "forward_return_3D": 0.02458,
+      "forward_return_5D": 0.03454,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-08T09:30:00-05:00",
+      "factor": null,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0061,
+      "forward_return_3D": 0.01442,
+      "forward_return_5D": 0.01811,
+      "group": "utilities"
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-08T09:30:00-05:00",
+      "factor": -0.8400000000000001,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.0008,
+      "forward_return_3D": 0.00126,
+      "forward_return_5D": 0.00168,
+      "group": "utilities"
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-09T09:30:00-05:00",
+      "factor": 1.11,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.011,
+      "forward_return_3D": 0.0252,
+      "forward_return_5D": 0.0325,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-09T09:30:00-05:00",
+      "factor": 0.07999999999999999,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0057,
+      "forward_return_3D": 0.01204,
+      "forward_return_5D": 0.01607,
+      "group": "technology"
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-09T09:30:00-05:00",
+      "factor": -0.9500000000000001,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.0004,
+      "forward_return_3D": 0.00188,
+      "forward_return_5D": -0.00036,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-09T09:30:00-05:00",
+      "factor": 1.32,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0131,
+      "forward_return_3D": 0.02832,
+      "forward_return_5D": 0.03901,
+      "group": "utilities"
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-10T09:30:00-05:00",
+      "factor": -1.0600000000000003,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.0,
+      "forward_return_3D": -0.0005,
+      "forward_return_5D": 0.0,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-10T09:30:00-05:00",
+      "factor": 1.21,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0127,
+      "forward_return_3D": 0.02894,
+      "forward_return_5D": 0.03937,
+      "group": "technology"
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-10T09:30:00-05:00",
+      "factor": 0.18,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0074,
+      "forward_return_3D": 0.01578,
+      "forward_return_5D": 0.02294,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-10T09:30:00-05:00",
+      "factor": 0.25,
+      "factor_quantile": 2,
+      "forward_return_1D": null,
+      "forward_return_3D": 0.01882,
+      "forward_return_5D": 0.02511,
+      "group": "utilities"
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-10T09:30:00-05:00",
+      "factor": 1.4200000000000002,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0148,
+      "forward_return_3D": 0.03206,
+      "forward_return_5D": 0.04588,
+      "group": "utilities"
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-11T09:30:00-05:00",
+      "factor": -1.0300000000000002,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.001,
+      "forward_return_3D": 0.0032,
+      "forward_return_5D": 0.0023,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-11T09:30:00-05:00",
+      "factor": 0.13999999999999999,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0077,
+      "forward_return_3D": 0.01644,
+      "forward_return_5D": 0.02307,
+      "group": "technology"
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-11T09:30:00-05:00",
+      "factor": 1.31,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0144,
+      "forward_return_3D": 0.03268,
+      "forward_return_5D": 0.04384,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-11T09:30:00-05:00",
+      "factor": -0.8200000000000001,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.0031,
+      "forward_return_3D": 0.00632,
+      "forward_return_5D": 0.00881,
+      "group": "utilities"
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-11T09:30:00-05:00",
+      "factor": 0.35,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0098,
+      "forward_return_3D": 0.02256,
+      "forward_return_5D": 0.02958,
+      "group": "utilities"
+    },
+    {
+      "asset": "A",
+      "date": "2024-01-16T09:30:00-05:00",
+      "factor": -1.0000000000000002,
+      "factor_quantile": 1,
+      "forward_return_1D": 0.002,
+      "forward_return_3D": 0.0039,
+      "forward_return_5D": 0.0046,
+      "group": "technology"
+    },
+    {
+      "asset": "B",
+      "date": "2024-01-16T09:30:00-05:00",
+      "factor": 0.16999999999999998,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0087,
+      "forward_return_3D": 0.02014,
+      "forward_return_5D": 0.02537,
+      "group": "technology"
+    },
+    {
+      "asset": "C",
+      "date": "2024-01-16T09:30:00-05:00",
+      "factor": 1.34,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0154,
+      "forward_return_3D": 0.03338,
+      "forward_return_5D": 0.04614,
+      "group": "technology"
+    },
+    {
+      "asset": "D",
+      "date": "2024-01-16T09:30:00-05:00",
+      "factor": 0.31,
+      "factor_quantile": 2,
+      "forward_return_1D": 0.0101,
+      "forward_return_3D": 0.02322,
+      "forward_return_5D": 0.02971,
+      "group": "utilities"
+    },
+    {
+      "asset": "E",
+      "date": "2024-01-16T09:30:00-05:00",
+      "factor": 1.4800000000000002,
+      "factor_quantile": 3,
+      "forward_return_1D": 0.0168,
+      "forward_return_3D": 0.03646,
+      "forward_return_5D": 0.05048,
+      "group": "utilities"
+    }
+  ],
+  "timezone": "America/New_York"
+}

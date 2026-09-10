@@ -1,0 +1,18 @@
+[
+  {
+    "date": "2024-01-02",
+    "turnover": null
+  },
+  {
+    "date": "2024-01-03",
+    "turnover": null
+  },
+  {
+    "date": "2024-01-04",
+    "turnover": 1.0
+  },
+  {
+    "date": "2024-01-05",
+    "turnover": 0.5
+  }
+]

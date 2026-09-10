@@ -1,0 +1,420 @@
+{
+  "quantile_turnover": [
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 1,
+      "period": "1D",
+      "turnover": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 1,
+      "period": "3D",
+      "turnover": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 2,
+      "period": "1D",
+      "turnover": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 2,
+      "period": "3D",
+      "turnover": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 3,
+      "period": "1D",
+      "turnover": null
+    },
+    {
+      "date": "2024-01-02",
+      "factor_quantile": 3,
+      "period": "3D",
+      "turnover": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 1,
+      "period": "1D",
+      "turnover": 0.0
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 1,
+      "period": "3D",
+      "turnover": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 2,
+      "period": "1D",
+      "turnover": 0.5
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 2,
+      "period": "3D",
+      "turnover": null
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 3,
+      "period": "1D",
+      "turnover": 0.0
+    },
+    {
+      "date": "2024-01-03",
+      "factor_quantile": 3,
+      "period": "3D",
+      "turnover": null
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 1,
+      "period": "1D",
+      "turnover": 0.5
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 1,
+      "period": "3D",
+      "turnover": null
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 2,
+      "period": "1D",
+      "turnover": 0.0
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 2,
+      "period": "3D",
+      "turnover": null
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 3,
+      "period": "1D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-04",
+      "factor_quantile": 3,
+      "period": "3D",
+      "turnover": null
+    },
+    {
+      "date": "2024-01-05",
+      "factor_quantile": 1,
+      "period": "1D",
+      "turnover": 0.0
+    },
+    {
+      "date": "2024-01-05",
+      "factor_quantile": 1,
+      "period": "3D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-05",
+      "factor_quantile": 2,
+      "period": "1D",
+      "turnover": 0.5
+    },
+    {
+      "date": "2024-01-05",
+      "factor_quantile": 2,
+      "period": "3D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-05",
+      "factor_quantile": 3,
+      "period": "1D",
+      "turnover": 0.0
+    },
+    {
+      "date": "2024-01-05",
+      "factor_quantile": 3,
+      "period": "3D",
+      "turnover": 0.0
+    },
+    {
+      "date": "2024-01-08",
+      "factor_quantile": 1,
+      "period": "1D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-08",
+      "factor_quantile": 1,
+      "period": "3D",
+      "turnover": 0.5
+    },
+    {
+      "date": "2024-01-08",
+      "factor_quantile": 2,
+      "period": "1D",
+      "turnover": 0.5
+    },
+    {
+      "date": "2024-01-08",
+      "factor_quantile": 2,
+      "period": "3D",
+      "turnover": 0.5
+    },
+    {
+      "date": "2024-01-08",
+      "factor_quantile": 3,
+      "period": "1D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-08",
+      "factor_quantile": 3,
+      "period": "3D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-09",
+      "factor_quantile": 1,
+      "period": "1D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-09",
+      "factor_quantile": 1,
+      "period": "3D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-09",
+      "factor_quantile": 2,
+      "period": "1D",
+      "turnover": 0.0
+    },
+    {
+      "date": "2024-01-09",
+      "factor_quantile": 2,
+      "period": "3D",
+      "turnover": 0.0
+    },
+    {
+      "date": "2024-01-09",
+      "factor_quantile": 3,
+      "period": "1D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-09",
+      "factor_quantile": 3,
+      "period": "3D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-10",
+      "factor_quantile": 1,
+      "period": "1D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-10",
+      "factor_quantile": 1,
+      "period": "3D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-10",
+      "factor_quantile": 2,
+      "period": "1D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-10",
+      "factor_quantile": 2,
+      "period": "3D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-10",
+      "factor_quantile": 3,
+      "period": "1D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-10",
+      "factor_quantile": 3,
+      "period": "3D",
+      "turnover": 0.5
+    },
+    {
+      "date": "2024-01-11",
+      "factor_quantile": 1,
+      "period": "1D",
+      "turnover": 0.5
+    },
+    {
+      "date": "2024-01-11",
+      "factor_quantile": 1,
+      "period": "3D",
+      "turnover": 0.5
+    },
+    {
+      "date": "2024-01-11",
+      "factor_quantile": 2,
+      "period": "1D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-11",
+      "factor_quantile": 2,
+      "period": "3D",
+      "turnover": 0.5
+    },
+    {
+      "date": "2024-01-11",
+      "factor_quantile": 3,
+      "period": "1D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-11",
+      "factor_quantile": 3,
+      "period": "3D",
+      "turnover": 0.0
+    },
+    {
+      "date": "2024-01-16",
+      "factor_quantile": 1,
+      "period": "1D",
+      "turnover": 0.0
+    },
+    {
+      "date": "2024-01-16",
+      "factor_quantile": 1,
+      "period": "3D",
+      "turnover": 1.0
+    },
+    {
+      "date": "2024-01-16",
+      "factor_quantile": 2,
+      "period": "1D",
+      "turnover": 0.5
+    },
+    {
+      "date": "2024-01-16",
+      "factor_quantile": 2,
+      "period": "3D",
+      "turnover": 0.5
+    },
+    {
+      "date": "2024-01-16",
+      "factor_quantile": 3,
+      "period": "1D",
+      "turnover": 0.5
+    },
+    {
+      "date": "2024-01-16",
+      "factor_quantile": 3,
+      "period": "3D",
+      "turnover": 1.0
+    }
+  ],
+  "rank_autocorrelation": [
+    {
+      "autocorrelation": null,
+      "date": "2024-01-02",
+      "period": "1D"
+    },
+    {
+      "autocorrelation": null,
+      "date": "2024-01-02",
+      "period": "3D"
+    },
+    {
+      "autocorrelation": 0.9486832980505138,
+      "date": "2024-01-03",
+      "period": "1D"
+    },
+    {
+      "autocorrelation": null,
+      "date": "2024-01-03",
+      "period": "3D"
+    },
+    {
+      "autocorrelation": 0.4,
+      "date": "2024-01-04",
+      "period": "1D"
+    },
+    {
+      "autocorrelation": null,
+      "date": "2024-01-04",
+      "period": "3D"
+    },
+    {
+      "autocorrelation": 0.8315218406202999,
+      "date": "2024-01-05",
+      "period": "1D"
+    },
+    {
+      "autocorrelation": 0.2176428750330035,
+      "date": "2024-01-05",
+      "period": "3D"
+    },
+    {
+      "autocorrelation": 0.5,
+      "date": "2024-01-08",
+      "period": "1D"
+    },
+    {
+      "autocorrelation": 0.9819805060619659,
+      "date": "2024-01-08",
+      "period": "3D"
+    },
+    {
+      "autocorrelation": -0.9819805060619659,
+      "date": "2024-01-09",
+      "period": "1D"
+    },
+    {
+      "autocorrelation": -0.8,
+      "date": "2024-01-09",
+      "period": "3D"
+    },
+    {
+      "autocorrelation": 0.0,
+      "date": "2024-01-10",
+      "period": "1D"
+    },
+    {
+      "autocorrelation": 0.680336051416609,
+      "date": "2024-01-10",
+      "period": "3D"
+    },
+    {
+      "autocorrelation": 0.3999999999999999,
+      "date": "2024-01-11",
+      "period": "1D"
+    },
+    {
+      "autocorrelation": 0.8315218406202999,
+      "date": "2024-01-11",
+      "period": "3D"
+    },
+    {
+      "autocorrelation": 0.7999999999999998,
+      "date": "2024-01-16",
+      "period": "1D"
+    },
+    {
+      "autocorrelation": -0.4,
+      "date": "2024-01-16",
+      "period": "3D"
+    }
+  ]
+}

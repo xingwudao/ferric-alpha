@@ -1,0 +1,747 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="2214" viewBox="0 0 1200 2214"><rect x="0" y="0" width="1200" height="2214" fill="#ffffff"/><g transform="translate(24, 104)"><svg id="summary.quantile-statistics" width="568" height="156" viewBox="0 0 568 156" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="568" height="156" opacity="1" fill="#FFFFFF" stroke="none"/>
+<rect x="0" y="0" width="568" height="156" opacity="1" fill="none" stroke="#E5E7EB"/>
+<text x="14" y="18" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="13.709677419354838" opacity="1" fill="#1F2937">
+Quantile Statistics
+</text>
+<rect x="12" y="36" width="539" height="30" opacity="1" fill="#E5E7EB" stroke="none"/>
+<text x="22" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Factor Quantile
+</text>
+<text x="99" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Factor Min
+</text>
+<text x="176" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Factor Max
+</text>
+<text x="253" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Factor Mean
+</text>
+<text x="330" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Factor Std
+</text>
+<text x="407" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Count
+</text>
+<text x="484" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Count Percent
+</text>
+<text x="22" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1
+</text>
+<text x="103" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-1.250000
+</text>
+<text x="180" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-0.820000
+</text>
+<text x="257" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-1.047692
+</text>
+<text x="339" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.146011
+</text>
+<text x="449" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+13
+</text>
+<text x="493" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+31.7073%
+</text>
+<rect x="12" y="96" width="539" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+2
+</text>
+<text x="103" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-0.050000
+</text>
+<text x="185" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.350000
+</text>
+<text x="262" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.105714
+</text>
+<text x="339" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.130072
+</text>
+<text x="449" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+14
+</text>
+<text x="493" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+34.1463%
+</text>
+<text x="22" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3
+</text>
+<text x="108" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1.110000
+</text>
+<text x="185" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1.480000
+</text>
+<text x="262" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1.272143
+</text>
+<text x="339" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.103640
+</text>
+<text x="449" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+14
+</text>
+<text x="493" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+34.1463%
+</text>
+</svg>
+</g><g transform="translate(24, 284)"><svg id="summary.returns-summary" width="568" height="976" viewBox="0 0 568 976" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="568" height="976" opacity="1" fill="#FFFFFF" stroke="none"/>
+<rect x="0" y="0" width="568" height="976" opacity="1" fill="none" stroke="#E5E7EB"/>
+<text x="14" y="18" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="13.709677419354838" opacity="1" fill="#1F2937">
+Returns Summary
+</text>
+<text x="14" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#6B7280">
+Returns Analysis
+</text>
+<rect x="12" y="66" width="544" height="30" opacity="1" fill="#E5E7EB" stroke="none"/>
+<text x="22" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Metric
+</text>
+<text x="158" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Period
+</text>
+<text x="294" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Value
+</text>
+<text x="430" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Count
+</text>
+<text x="22" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+alpha_annualized
+</text>
+<text x="158" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1D
+</text>
+<text x="346" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+435.029499%
+</text>
+<text x="537" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<rect x="12" y="126" width="544" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+alpha_annualized
+</text>
+<text x="158" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3D
+</text>
+<text x="346" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+233.244166%
+</text>
+<text x="537" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<text x="22" y="171" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+alpha_annualized
+</text>
+<text x="158" y="171" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+5D
+</text>
+<text x="346" y="171" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+181.698523%
+</text>
+<text x="537" y="171" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<rect x="12" y="186" width="544" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="201" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+alpha_raw
+</text>
+<text x="158" y="201" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1D
+</text>
+<text x="357" y="201" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.667756%
+</text>
+<text x="537" y="201" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<text x="22" y="231" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+alpha_raw
+</text>
+<text x="158" y="231" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3D
+</text>
+<text x="357" y="231" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1.443299%
+</text>
+<text x="537" y="231" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<rect x="12" y="246" width="544" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="261" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+alpha_raw
+</text>
+<text x="158" y="261" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+5D
+</text>
+<text x="357" y="261" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+2.076154%
+</text>
+<text x="537" y="261" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<text x="22" y="291" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+beta
+</text>
+<text x="158" y="291" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1D
+</text>
+<text x="351" y="291" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-8.888936%
+</text>
+<text x="537" y="291" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<rect x="12" y="306" width="544" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="321" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+beta
+</text>
+<text x="158" y="321" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3D
+</text>
+<text x="351" y="321" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-8.282915%
+</text>
+<text x="537" y="321" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<text x="22" y="351" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+beta
+</text>
+<text x="158" y="351" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+5D
+</text>
+<text x="346" y="351" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-10.433030%
+</text>
+<text x="537" y="351" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<rect x="12" y="366" width="544" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="381" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+bottom_quantile_mean
+</text>
+<text x="158" y="381" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1D
+</text>
+<text x="351" y="381" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-0.668611%
+</text>
+<text x="537" y="381" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<text x="22" y="411" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+bottom_quantile_mean
+</text>
+<text x="158" y="411" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3D
+</text>
+<text x="351" y="411" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-0.493206%
+</text>
+<text x="537" y="411" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<rect x="12" y="426" width="544" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="441" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+bottom_quantile_mean
+</text>
+<text x="158" y="441" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+5D
+</text>
+<text x="351" y="441" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-0.417143%
+</text>
+<text x="537" y="441" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<text x="22" y="471" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+mean_spread
+</text>
+<text x="158" y="471" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1D
+</text>
+<text x="357" y="471" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1.308889%
+</text>
+<text x="537" y="471" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<rect x="12" y="486" width="544" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="501" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+mean_spread
+</text>
+<text x="158" y="501" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3D
+</text>
+<text x="357" y="501" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.950783%
+</text>
+<text x="537" y="501" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<text x="22" y="531" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+mean_spread
+</text>
+<text x="158" y="531" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+5D
+</text>
+<text x="357" y="531" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.798652%
+</text>
+<text x="537" y="531" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<rect x="12" y="546" width="544" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="561" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+top_quantile_mean
+</text>
+<text x="158" y="561" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1D
+</text>
+<text x="357" y="561" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.640278%
+</text>
+<text x="537" y="561" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<text x="22" y="591" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+top_quantile_mean
+</text>
+<text x="158" y="591" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3D
+</text>
+<text x="357" y="591" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.466891%
+</text>
+<text x="537" y="591" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<rect x="12" y="606" width="544" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="621" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+top_quantile_mean
+</text>
+<text x="158" y="621" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+5D
+</text>
+<text x="357" y="621" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.394705%
+</text>
+<text x="537" y="621" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<text x="14" y="661" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#6B7280">
+Mean Period-Wise Return by Quantile
+</text>
+<rect x="12" y="676" width="540" height="30" opacity="1" fill="#E5E7EB" stroke="none"/>
+<text x="22" y="691" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Factor Quantile
+</text>
+<text x="130" y="691" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Period
+</text>
+<text x="238" y="691" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Mean Return
+</text>
+<text x="346" y="691" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Std Error
+</text>
+<text x="454" y="691" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Count
+</text>
+<text x="22" y="721" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1
+</text>
+<text x="130" y="721" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1D
+</text>
+<text x="267" y="721" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-0.668611%
+</text>
+<text x="381" y="721" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.047509%
+</text>
+<text x="533" y="721" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<rect x="12" y="736" width="540" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="751" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1
+</text>
+<text x="130" y="751" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3D
+</text>
+<text x="267" y="751" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-0.493206%
+</text>
+<text x="381" y="751" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.060739%
+</text>
+<text x="533" y="751" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<text x="22" y="781" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1
+</text>
+<text x="130" y="781" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+5D
+</text>
+<text x="267" y="781" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-0.417143%
+</text>
+<text x="381" y="781" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.064853%
+</text>
+<text x="533" y="781" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<rect x="12" y="796" width="540" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="811" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+2
+</text>
+<text x="130" y="811" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1D
+</text>
+<text x="267" y="811" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-0.037500%
+</text>
+<text x="381" y="811" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.038707%
+</text>
+<text x="533" y="811" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<text x="22" y="841" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+2
+</text>
+<text x="130" y="841" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3D
+</text>
+<text x="267" y="841" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-0.011075%
+</text>
+<text x="381" y="841" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.059354%
+</text>
+<text x="533" y="841" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<rect x="12" y="856" width="540" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="871" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+2
+</text>
+<text x="130" y="871" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+5D
+</text>
+<text x="267" y="871" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-0.019986%
+</text>
+<text x="381" y="871" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.051887%
+</text>
+<text x="533" y="871" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<text x="22" y="901" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3
+</text>
+<text x="130" y="901" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1D
+</text>
+<text x="273" y="901" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.640278%
+</text>
+<text x="381" y="901" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.036373%
+</text>
+<text x="533" y="901" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<rect x="12" y="916" width="540" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="931" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3
+</text>
+<text x="130" y="931" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3D
+</text>
+<text x="273" y="931" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.466891%
+</text>
+<text x="381" y="931" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.048533%
+</text>
+<text x="533" y="931" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<text x="22" y="961" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3
+</text>
+<text x="130" y="961" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+5D
+</text>
+<text x="273" y="961" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.394705%
+</text>
+<text x="381" y="961" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.049543%
+</text>
+<text x="533" y="961" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+</svg>
+</g><g transform="translate(24, 1284)"><svg id="summary.quantile-returns" xmlns="http://www.w3.org/2000/svg" width="1152" height="320" viewBox="0 0 1152 320"><rect x="0" y="0" width="1152" height="320" fill="#ffffff"/><text data-role="title" x="16" y="26" fill="#1f2937" font-size="16">Mean Return by Quantile</text><rect data-role="plot-body" x="64" y="48" width="1064" height="226" fill="none" stroke="#e5e7eb"/><line data-role="zero-line" x1="64" y1="158.962" x2="1128" y2="158.962" stroke="#e5e7eb" stroke-width="1"/><text data-role="axis-unit" x="64" y="302" fill="#6b7280" font-size="11">0%</text><rect data-mark="bar" data-quantile="1" data-period="1D" x="81.733" y="158.962" width="82.756" height="96.205" fill="#9333ea"/><line data-mark="whisker" x1="123.111" y1="262.003" x2="123.111" y2="248.331" stroke="#1f2937" stroke-width="1"/><rect data-mark="bar" data-quantile="1" data-period="3D" x="199.956" y="158.962" width="82.756" height="70.966" fill="#16a34a"/><line data-mark="whisker" x1="241.333" y1="238.668" x2="241.333" y2="221.188" stroke="#1f2937" stroke-width="1"/><rect data-mark="bar" data-quantile="1" data-period="5D" x="318.178" y="158.962" width="82.756" height="60.022" fill="#be123c"/><line data-mark="whisker" x1="359.556" y1="228.315" x2="359.556" y2="209.652" stroke="#1f2937" stroke-width="1"/><rect data-mark="bar" data-quantile="2" data-period="1D" x="436.400" y="158.962" width="82.756" height="5.396" fill="#9333ea"/><line data-mark="whisker" x1="477.778" y1="169.927" x2="477.778" y2="158.788" stroke="#1f2937" stroke-width="1"/><rect data-mark="bar" data-quantile="2" data-period="3D" x="554.622" y="158.962" width="82.756" height="1.594" fill="#16a34a"/><line data-mark="whisker" x1="596.000" y1="169.096" x2="596.000" y2="152.015" stroke="#1f2937" stroke-width="1"/><rect data-mark="bar" data-quantile="2" data-period="5D" x="672.844" y="158.962" width="82.756" height="2.876" fill="#be123c"/><line data-mark="whisker" x1="714.222" y1="169.303" x2="714.222" y2="154.371" stroke="#1f2937" stroke-width="1"/><rect data-mark="bar" data-quantile="3" data-period="1D" x="791.067" y="66.833" width="82.756" height="92.128" fill="#9333ea"/><line data-mark="whisker" x1="832.444" y1="72.067" x2="832.444" y2="61.600" stroke="#1f2937" stroke-width="1"/><rect data-mark="bar" data-quantile="3" data-period="3D" x="909.289" y="91.782" width="82.756" height="67.180" fill="#16a34a"/><line data-mark="whisker" x1="950.667" y1="98.765" x2="950.667" y2="84.798" stroke="#1f2937" stroke-width="1"/><rect data-mark="bar" data-quantile="3" data-period="5D" x="1027.511" y="102.168" width="82.756" height="56.793" fill="#be123c"/><line data-mark="whisker" x1="1068.889" y1="109.297" x2="1068.889" y2="95.040" stroke="#1f2937" stroke-width="1"/></svg></g><g transform="translate(24, 1628)"><svg id="summary.information-summary" width="568" height="156" viewBox="0 0 568 156" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="568" height="156" opacity="1" fill="#FFFFFF" stroke="none"/>
+<rect x="0" y="0" width="568" height="156" opacity="1" fill="none" stroke="#E5E7EB"/>
+<text x="14" y="18" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="13.709677419354838" opacity="1" fill="#1F2937">
+Information Summary
+</text>
+<rect x="12" y="36" width="540" height="30" opacity="1" fill="#E5E7EB" stroke="none"/>
+<text x="22" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Period
+</text>
+<text x="82" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+IC Mean
+</text>
+<text x="142" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+IC Std
+</text>
+<text x="202" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Risk-Adj…
+</text>
+<text x="262" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+T-Statistic
+</text>
+<text x="322" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+P-Value
+</text>
+<text x="382" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Skew
+</text>
+<text x="442" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Excess K…
+</text>
+<text x="502" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Count
+</text>
+<text x="22" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1D
+</text>
+<text x="82" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.997187
+</text>
+<text x="142" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.008440
+</text>
+<text x="202" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+118.147433
+</text>
+<text x="262" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+354.442298
+</text>
+<text x="322" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.000000
+</text>
+<text x="382" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-2.474874
+</text>
+<text x="442" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+4.125000
+</text>
+<text x="533" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<rect x="12" y="96" width="540" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3D
+</text>
+<text x="82" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.997187
+</text>
+<text x="142" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.008440
+</text>
+<text x="202" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+118.147433
+</text>
+<text x="262" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+354.442298
+</text>
+<text x="322" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.000000
+</text>
+<text x="382" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-2.474874
+</text>
+<text x="442" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+4.125000
+</text>
+<text x="533" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+<text x="22" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+5D
+</text>
+<text x="82" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.997187
+</text>
+<text x="142" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.008440
+</text>
+<text x="202" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+118.147433
+</text>
+<text x="262" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+354.442298
+</text>
+<text x="322" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.000000
+</text>
+<text x="382" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+-2.474874
+</text>
+<text x="442" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+4.125000
+</text>
+<text x="533" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+9
+</text>
+</svg>
+</g><g transform="translate(24, 1808)"><svg id="summary.turnover-summary" width="568" height="406" viewBox="0 0 568 406" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="568" height="406" opacity="1" fill="#FFFFFF" stroke="none"/>
+<rect x="0" y="0" width="568" height="406" opacity="1" fill="none" stroke="#E5E7EB"/>
+<text x="14" y="18" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="13.709677419354838" opacity="1" fill="#1F2937">
+Turnover Summary
+</text>
+<text x="14" y="51" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#6B7280">
+Mean Quantile Turnover
+</text>
+<rect x="12" y="66" width="544" height="30" opacity="1" fill="#E5E7EB" stroke="none"/>
+<text x="22" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Factor Quantile
+</text>
+<text x="158" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Period
+</text>
+<text x="294" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Turnover
+</text>
+<text x="430" y="81" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Count
+</text>
+<text x="22" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1
+</text>
+<text x="158" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1D
+</text>
+<text x="362" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.500000
+</text>
+<text x="537" y="111" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+8
+</text>
+<rect x="12" y="126" width="544" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1
+</text>
+<text x="158" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3D
+</text>
+<text x="362" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.833333
+</text>
+<text x="537" y="141" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+6
+</text>
+<text x="22" y="171" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+2
+</text>
+<text x="158" y="171" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1D
+</text>
+<text x="362" y="171" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.500000
+</text>
+<text x="537" y="171" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+8
+</text>
+<rect x="12" y="186" width="544" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="201" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+2
+</text>
+<text x="158" y="201" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3D
+</text>
+<text x="362" y="201" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.583333
+</text>
+<text x="537" y="201" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+6
+</text>
+<text x="22" y="231" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3
+</text>
+<text x="158" y="231" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1D
+</text>
+<text x="362" y="231" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.687500
+</text>
+<text x="537" y="231" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+8
+</text>
+<rect x="12" y="246" width="544" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="261" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3
+</text>
+<text x="158" y="261" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3D
+</text>
+<text x="362" y="261" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.583333
+</text>
+<text x="537" y="261" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+6
+</text>
+<text x="14" y="301" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#6B7280">
+Mean Factor Rank Autocorrelation
+</text>
+<rect x="12" y="316" width="543" height="30" opacity="1" fill="#E5E7EB" stroke="none"/>
+<text x="22" y="331" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Period
+</text>
+<text x="203" y="331" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Autocorrelation
+</text>
+<text x="384" y="331" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="9.67741935483871" opacity="1" fill="#1F2937">
+Count
+</text>
+<text x="22" y="361" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+1D
+</text>
+<text x="316" y="361" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.362278
+</text>
+<text x="536" y="361" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+8
+</text>
+<rect x="12" y="376" width="543" height="30" opacity="1" fill="#F8FAFC" stroke="none"/>
+<text x="22" y="391" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+3D
+</text>
+<text x="316" y="391" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+0.251914
+</text>
+<text x="536" y="391" dy="0.5ex" text-anchor="start" font-family="Ferric Noto Sans SC" font-size="8.870967741935484" opacity="1" fill="#1F2937">
+6
+</text>
+</svg>
+</g></svg>
