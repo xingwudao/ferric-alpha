@@ -5,7 +5,7 @@ PYTEST := $(VENV)/bin/pytest
 RUFF := $(VENV)/bin/ruff
 SETUP_STAMP := $(VENV)/.setup-stamp
 
-.PHONY: setup develop format lint test verify golden-check visual-check
+.PHONY: setup develop format lint test verify golden-check visual-check docs-site-check
 
 setup: $(SETUP_STAMP)
 
@@ -41,3 +41,6 @@ visual-check: setup
 	$(PYTHON) -m pip install "playwright==1.55.0"
 	$(PYTHON) -m playwright install chromium
 	FERRIC_ALPHA_BROWSER_TESTS=1 $(PYTEST) -q tests/python/test_render_browser.py
+
+docs-site-check:
+	cd docs-site && npm install --no-audit && npm run docs:build

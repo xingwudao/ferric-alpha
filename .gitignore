@@ -34,6 +34,11 @@ __pycache__/
 /python/*.egg-info/
 /python/ferric_alpha/*.so
 
+# Docs site dependencies and build output.
+/docs-site/node_modules/
+/docs-site/.vitepress/dist/
+/docs-site/.vitepress/cache/
+
 # Local editor and OS files.
 .DS_Store
 .idea/

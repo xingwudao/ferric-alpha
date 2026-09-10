@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Ferric Alpha</title>
+  <desc id="desc">Rust and Polars factor analysis</desc>
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <path d="M132 160h140v40H132zm0 76h220v40H132zm0 76h180v40H132z" fill="#b45309"/>
+  <text x="430" y="245" fill="#111827" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="76" font-weight="700">Ferric Alpha</text>
+  <text x="434" y="326" fill="#374151" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="34">Rust + Polars factor analysis</text>
+  <text x="434" y="386" fill="#6b7280" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="26">Python-friendly workflows inspired by alphalens</text>
+</svg>

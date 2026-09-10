@@ -6,6 +6,13 @@ provides both Rust and Python APIs.
 
 The project is under active development. No public release is available yet.
 
+## Documentation
+
+The official documentation site source lives in `docs-site/`. After GitHub
+Pages is enabled for this repository, it is served at:
+
+https://xingwudao.github.io/ferric-alpha/
+
 ## Current scope
 
 Ferric Alpha currently supports factor data preparation, core performance
