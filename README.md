@@ -25,6 +25,7 @@ Benchmark setup:
 - Dataset: `250` assets, `252` sessions, `63,000` factor rows
 - Forward returns: `1D` and `5D`
 - Iterations: `5`; result is median wall-clock time
+- Rank autocorrelation recheck: median of `7` runs, `15` iterations per run
 - `ferric-alpha`: `0.1.0`, release build, Python `3.13.4`, Polars `1.42.1`
 - `alphalens`: `0.4.0`, Python `3.9.25`, Pandas `1.5.3`, NumPy `1.23.5`
 
@@ -37,12 +38,13 @@ Results where `ferric-alpha` is faster:
 | `factor_weights` | `15.153 ms` | `43.330 ms` | `2.9x` |
 | `mean_return_by_quantile` | `21.022 ms` | `60.900 ms` | `2.9x` |
 | `quantile_turnover` | `3.018 ms` | `6.136 ms` | `2.0x` |
+| `factor_rank_autocorrelation` | `6.823 ms` | `15.497 ms` | `2.3x` |
 
-Current known gap:
-
-| Metric | ferric-alpha | alphalens | Result |
-| --- | ---: | ---: | ---: |
-| `factor_rank_autocorrelation` | `16.541 ms` | `14.279 ms` | `0.9x` |
+`factor_rank_autocorrelation` automatically uses a dense matrix for complete
+date-by-asset panels and retains the compatibility path for sparse or changing
+universes. A direct alphalens oracle comparison over shuffled data with ties
+and lags `1`, `3`, and `10` matched null positions exactly; the maximum absolute
+numeric difference was `1.11e-16`.
 
 Reproduce the benchmark from this repository:
 

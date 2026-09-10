@@ -35,3 +35,8 @@ rank_auto = fa.performance.factor_rank_autocorrelation(factor_data, period=1)
 
 These APIs are designed for repeated factor research workflows: compare
 top-bottom spreads, inspect quantile stability, and monitor factor rank decay.
+
+`factor_rank_autocorrelation` automatically uses a dense-matrix fast path when
+every date contains the same complete asset universe with finite factor values.
+Sparse or changing universes and invalid factor observations fall back to the
+general alignment path, preserving the same output contract.
